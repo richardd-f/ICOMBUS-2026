@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isCallDropdownOpen, setIsCallDropdownOpen] = useState(false);
 
   // Helper untuk mengecek apakah link aktif.
-  const isActive = (href) =>
+  const isActive = (href: string) =>
     pathname === href ||
     (pathname?.startsWith("/callPaper") && href === "/callPaper");
 

@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 
-export const FullPaperFormat = () => {
+const FullPaperFormat = () => {
   return (
     <div className="bg-white text-black">
       <Navbar />
