@@ -1,31 +1,27 @@
-# Stage 1: Build
-FROM node:18-alpine AS builder
+# -------- Stage 1: Build --------
+FROM node:20-slim AS builder
+
 WORKDIR /app
-# Salin file package.json dan package-lock.json (jika ada)
-COPY package*.json ./
-# Install dependencies
-RUN npm install
-# Salin seluruh kode aplikasi
+
+# 4. Install Dependencies (With Cache)
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
+    pnpm config set store-dir /pnpm/store && \
+    pnpm i --frozen-lockfile
+
+# 5. Copy Source Code & Build
 COPY . .
-# Build aplikasi Next.js
-RUN npm run build
+RUN pnpm build
 
-# Stage 2: Production
-FROM node:18-alpine
+
+# -------- Stage 2: Runtime --------
+FROM node:20-slim AS runner
 WORKDIR /app
-# Salin file package.json untuk memastikan dependensi yang diperlukan tersedia
-COPY --from=builder /app/package*.json ./
-# Salin folder node_modules yang telah diinstall di stage builder
-COPY --from=builder /app/node_modules ./node_modules
-# Salin hasil build Next.js dan folder public
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/public ./public
 
-# Ekspos port yang digunakan aplikasi
+# Copy artifacts
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+
 EXPOSE 3000
 
-# Set environment ke production
-ENV NODE_ENV production
-
-# Perintah untuk menjalankan aplikasi dalam mode production
-CMD ["npm", "run", "start"]
+CMD ["node" , "server.js"]

@@ -1,18 +1,15 @@
 services:
-  nextjs-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: icombus3-app
-    ports:
-      - "3002:3000"
+  app:
+    container_name: icombus
+    expose:
+      - "3000"
     environment:
       - NODE_ENV=production
     restart: unless-stopped
-    command: ["/bin/sh", "-c", "npm run build && npm start"]
+    command: [ "/bin/sh", "-c", "npm run build && npm start" ]
     networks:
-      - link0
+      - npm_default
 
 networks:
-  link0:
+  npm_default:
     external: true
