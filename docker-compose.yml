@@ -1,12 +1,12 @@
 services:
   app:
     container_name: icombus
+    image: ghcr.io/richardd-f/icombus-2026:latest
     expose:
       - "3000"
     environment:
       - NODE_ENV=production
     restart: unless-stopped
-    command: [ "/bin/sh", "-c", "npm run build && npm start" ]
     networks:
       - npm_default
 
