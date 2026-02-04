@@ -10,7 +10,7 @@ const ConferenceCountdown = () => {
         {/* Bagian Teks */}
         <div className="text-center">
           <h3 className="font-bold text-[48px] text-white">Conference Day:</h3>
-          <p className="text-[32px] font-bold text-white">30 May 2025</p>
+          <p className="text-[32px] font-bold text-white">18 April 2026</p>
           <p className="text-[32px] font-bold text-white">08.30 WIB</p>
           <p className="text-[32px] font-bold text-white">
             Indonesia/Jakarta Time (GMT+7)
