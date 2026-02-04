@@ -27,7 +27,7 @@ export default function Hero() {
 
         {/* Judul utama */}
         <h2 className="text-[48px] font-semibold text-[#365427]">
-          ICOMBUS Conference 2025
+          ICOMBUS Conference 2026
         </h2>
 
         {/* Sub-judul */}
@@ -37,8 +37,7 @@ export default function Hero() {
 
         {/* Judul tema */}
         <h1 className="mt-4 text-xl md:text-3xl font-bold max-w-3xl mx-auto text-black">
-          "Global Perspectives on Management and Accounting: Driving Excellence
-          in a Dynamic World"
+          "Integrating Management, Entrepreneurship, and Accounting for Digital Transformation toward a Sustainable Future"
         </h1>
 
         {/* Tombol */}

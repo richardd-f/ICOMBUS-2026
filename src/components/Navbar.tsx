@@ -18,6 +18,7 @@ const Navbar = () => {
   // Link navigasi umum (TANPA "How to Register" dan "Call for Paper")
   const links = [
     { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
     { href: "/rundown", label: "Rundown" },
     { href: "/topic", label: "List of Topics" },
   ];
