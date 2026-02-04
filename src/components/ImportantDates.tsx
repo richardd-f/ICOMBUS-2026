@@ -3,27 +3,35 @@ import Image from "next/image";
 const importantDates = [
   {
     date: "5th April 2025",
-    description: "Extended Abstract Submission Deadline",
+    description: "Abstract Submission (Free)",
   },
   {
     date: "16th April 2025",
-    description: "Abstract Notification of Acceptance",
+    description: "Abstract Selection",
   },
   {
     date: "20th April 2025",
-    description: "Payment Deadline",
+    description: "Abstract Announcement",
   },
   {
     date: "25th April 2025",
-    description: "Full Paper Submission Deadline",
+    description: "Full Paper Submission (Payment)",
   },
   {
     date: "10th May 2025",
-    description: "Presentation Material Submission Deadline",
+    description: "Full Paper Selection",
   },
   {
     date: "30th May 2025",
-    description: "Conference Date",
+    description: "Full Paper Announcement",
+  },
+  {
+    date: "30th May 2025",
+    description: "Presentation Material Submission",
+  },
+  {
+    date: "30th May 2025",
+    description: "Conference Day",
   },
 ];
 
@@ -41,7 +49,7 @@ export default function ImportantDates() {
           className="text-3xl font-bold text-center mb-12 py-4"
           style={{ color: "#365427" }}
         >
-          IMPORTANT DATES
+          TIMELINE
         </h2>
 
         <div className="relative">
