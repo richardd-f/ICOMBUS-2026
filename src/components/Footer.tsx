@@ -106,9 +106,8 @@ const Footer = () => {
           }}
         >
           <p className="font-medium">Contact Person:</p>
-          <p className="font-bold">Jean (WA: +62 822 2897 1236)</p>
-          <p className="font-bold">Jonathan (WA: +62 857 9588 2313)</p>
-          <p className="font-bold">Email: icombus@ciputra.ac.id</p>
+          <p className="font-bold">Eddrick Chang (WA: +62 812 5396 7535)</p>
+          <p className="font-bold">Email: icombusconference@gmail.com</p>
         </div>
       </div>
     </footer>
