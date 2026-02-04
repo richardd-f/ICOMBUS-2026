@@ -32,7 +32,7 @@ export default function Hero() {
 
         {/* Sub-judul */}
         <p className="mt-2 text-base md:text-lg text-gray-700">
-          The 1st International Conference on Management and Business Strategy
+          The 2nd International Conference on Management and Business Strategy
         </p>
 
         {/* Judul tema */}
@@ -47,7 +47,7 @@ export default function Hero() {
           </span>
           <div className="mt-8 flex flex-row items-center gap-4">
             <a
-              href="https://forms.gle/uB9tQ4kUznuijfAv8"
+              href="https://forms.gle/Zn34gCVtwM53kQz3A"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-[#1F4923] to-[#558C3F] text-white px-6 py-2 rounded-full text-lg md:text-xl font-medium transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:[background-image:none] hover:bg-[#FFD449]"
@@ -55,7 +55,7 @@ export default function Hero() {
               CONFERENCE REGISTER
             </a>
             <a
-              href="https://forms.gle/Jown4xr3Lp2wbTNM9 "
+              href="https://forms.gle/Zn34gCVtwM53kQz3A"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-[#1F4923] to-[#558C3F] text-white px-6 py-2 rounded-full text-lg md:text-xl font-medium transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:[background-image:none] hover:bg-[#FFD449]"

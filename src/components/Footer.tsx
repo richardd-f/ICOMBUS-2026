@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   // Definisikan path dan alt text untuk logo Co-Host
-  const coHostLogos = [
+  var coHostLogos = [
     {
       src: "/images/Logo_Universitas_Sanata_Dharma.svg.png",
       alt: "Universitas Sanata Dharma",
@@ -34,6 +34,7 @@ const Footer = () => {
       height: 100,
     },
   ];
+  coHostLogos = [];
 
   return (
     <footer className="bg-white text-black">
@@ -77,9 +78,9 @@ const Footer = () => {
         </div>
 
         {/* Co-Hosted by Section */}
-        <div className="text-center mb-6">
+        {/* <div className="text-center mb-6">
           <h2 className="text-xl font-bold">Co-Hosted by</h2>
-        </div>
+        </div> */}
 
         <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8 mb-10">
           {coHostLogos.map((logo, index) => (

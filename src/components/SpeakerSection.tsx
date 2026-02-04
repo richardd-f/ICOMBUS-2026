@@ -9,22 +9,6 @@ const speakers = [
       "Dean, School of Entrepreneurship & Humanities Universitas Ciputra Surabaya",
     image: "/speaker1.jpg",
   },
-  {
-    name: "Dr. Harry Patria",
-    title:
-      "PhD Researcher at Hunter Centre for Entrepreneurship, Strategy and Innovation, Strathclyde Business School, UK",
-    image: "/speaker2.jpeg",
-  },
-  {
-    name: "Dr. Miguel Angel Esquivias Padilla IE., M.SE.",
-    title: "Regional Economic Development Institute (REDI)",
-    image: "/speaker3.jpg",
-  },
-  {
-    name: "Dr. Nor’ain Abdullah",
-    title: "Management and Science University (MSU), Malaysia",
-    image: "/speaker4_revisi.jpg",
-  },
 ];
 
 const SpeakerSection = () => {

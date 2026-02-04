@@ -14,7 +14,11 @@ export default function Home() {
       <ConferenceCountdown />
       <SpeakerSection />
       <RegistrationFee />
+
+      {/* Timeline */}
       <ImportantDates />
+
+      
       <Footer/>
     </div>
   );

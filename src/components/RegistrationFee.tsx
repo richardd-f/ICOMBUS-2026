@@ -39,24 +39,40 @@ export default function RegistrationFee() {
                   </div>
                   <div className="bg-white p-3 md:p-4 text-center">
                     <p className="text-lg md:text-xl font-bold text-black">
-                      Rp. 100.000
+                      Rp. 550.000
                     </p>
                   </div>
                 </div>
-                {/* Presenter */}
+                
+                {/* Undergraduate */}
                 <div className="rounded-xl overflow-hidden shadow-lg">
                   <div className="bg-gradient-to-t from-[#1F4923] to-[#558C3F] p-3 md:p-4 text-center text-white">
                     <p className="font-semibold text-lg md:text-xl">
-                      Presenter
+                      Undergraduate
                     </p>
                   </div>
                   <div className="bg-white p-3 md:p-4 text-center">
                     <p className="text-lg md:text-xl font-bold text-black">
-                      Rp. 400.000
+                      Rp. 450.000
+                    </p>
+                  </div>
+                </div>
+
+                {/* Co-Host */}
+                <div className="rounded-xl overflow-hidden shadow-lg">
+                  <div className="bg-gradient-to-t from-[#1F4923] to-[#558C3F] p-3 md:p-4 text-center text-white">
+                    <p className="font-semibold text-lg md:text-xl">
+                      Co-Host
+                    </p>
+                  </div>
+                  <div className="bg-white p-3 md:p-4 text-center">
+                    <p className="text-lg md:text-xl font-bold text-black">
+                      Rp. 350.000
                     </p>
                   </div>
                 </div>
               </div>
+
               <div className="mt-4 bg-white/40 p-3 rounded-lg text-center text-[#365427]">
                 <p className="font-medium">
                   For National participants, please pay using Bank BCA transfer
@@ -79,20 +95,35 @@ export default function RegistrationFee() {
                   </div>
                   <div className="bg-white p-3 md:p-4 text-center">
                     <p className="text-lg md:text-xl font-bold text-black">
-                      USD 7
+                      USD 36
                     </p>
                   </div>
                 </div>
-                {/* Presenter */}
+
+                {/* Undergraduate */}
                 <div className="rounded-xl overflow-hidden shadow-lg">
                   <div className="bg-gradient-to-t from-[#1F4923] to-[#558C3F] p-3 md:p-4 text-center text-white">
                     <p className="font-semibold text-lg md:text-xl">
-                      Presenter
+                      Undergraduate
                     </p>
                   </div>
                   <div className="bg-white p-3 md:p-4 text-center">
                     <p className="text-lg md:text-xl font-bold text-black">
                       USD 30
+                    </p>
+                  </div>
+                </div>
+
+                {/* Co-Host */}
+                <div className="rounded-xl overflow-hidden shadow-lg">
+                  <div className="bg-gradient-to-t from-[#1F4923] to-[#558C3F] p-3 md:p-4 text-center text-white">
+                    <p className="font-semibold text-lg md:text-xl">
+                      Co-Host
+                    </p>
+                  </div>
+                  <div className="bg-white p-3 md:p-4 text-center">
+                    <p className="text-lg md:text-xl font-bold text-black">
+                      USD 21
                     </p>
                   </div>
                 </div>

@@ -2,35 +2,39 @@ import Image from "next/image";
 
 const importantDates = [
   {
-    date: "5th April 2025",
+    date: "5th February 2026",
+    description: "Open Registration",
+  },
+  {
+    date: "28th February 2026",
     description: "Abstract Submission (Free)",
   },
   {
-    date: "16th April 2025",
+    date: "1st March 2026",
     description: "Abstract Selection",
   },
   {
-    date: "20th April 2025",
+    date: "3rd March 2026",
     description: "Abstract Announcement",
   },
   {
-    date: "25th April 2025",
-    description: "Full Paper Submission (Payment)",
+    date: "5th March 2026",
+    description: "Full Paper Registration and Payment",
   },
   {
-    date: "10th May 2025",
+    date: "25th March 2026",
     description: "Full Paper Selection",
   },
   {
-    date: "30th May 2025",
+    date: "31st March 2026",
     description: "Full Paper Announcement",
   },
   {
-    date: "30th May 2025",
+    date: "17th April 2026",
     description: "Presentation Material Submission",
   },
   {
-    date: "30th May 2025",
+    date: "18th April 2026",
     description: "Conference Day",
   },
 ];
