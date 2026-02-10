@@ -57,8 +57,8 @@ const Navbar = () => {
               href={link.href}
               className={
                 isActive(link.href)
-                  ? "font-bold text-yellow-500 hover:text-yellow-600"
-                  : "font-bold text-green-800 hover:text-green-900"
+                      ? "font-bold text-[#0984A4] hover:text-[#116080]"
+                      : "font-bold text-[#144373] hover:text-[#0C2A56]"
               }
             >
               {link.label}
@@ -71,8 +71,8 @@ const Navbar = () => {
               href="/callPaper"
               className={
                 isActive("/callPaper")
-                  ? "font-bold text-yellow-500 hover:text-yellow-600"
-                  : "font-bold text-green-800 hover:text-green-900"
+                      ? "font-bold text-[#0984A4] hover:text-[#116080]"
+                      : "font-bold text-[#144373] hover:text-[#0C2A56]"
               }
             >
               Call for Paper
@@ -82,8 +82,8 @@ const Navbar = () => {
                 <Link
                   key={index}
                   href={link.href}
-                  className={`block px-4 py-2 hover:bg-green-100 ${
-                    isActive(link.href) ? "text-yellow-500" : "text-green-800"
+                  className={`block px-4 py-2 hover:bg-[#A0B3B7] ${
+                    isActive(link.href) ? "text-[#0984A4]" : "text-[#103765]"
                   }`}
                 >
                   {link.label}
@@ -97,8 +97,8 @@ const Navbar = () => {
             href={registerLink.href}
             className={
               isActive(registerLink.href)
-                ? "font-bold text-yellow-500 hover:text-yellow-600"
-                : "font-bold text-green-800 hover:text-green-900"
+                      ? "font-bold text-[#0984A4] hover:text-[#116080]"
+                      : "font-bold text-[#144373] hover:text-[#0C2A56]"
             }
           >
             {registerLink.label}
@@ -115,7 +115,7 @@ const Navbar = () => {
               <svg
                 className="w-6 h-6"
                 fill="none"
-                stroke="#365427"
+                stroke="#0C2A56"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -130,7 +130,7 @@ const Navbar = () => {
               <svg
                 className="w-6 h-6"
                 fill="none"
-                stroke="#365427"
+                stroke="#0C2A56"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -174,8 +174,8 @@ const Navbar = () => {
                   onClick={() => setIsMenuOpen(false)}
                   className={
                     isActive("/callPaper")
-                      ? "font-bold text-yellow-500 hover:text-yellow-600"
-                      : "font-bold text-green-800 hover:text-green-900"
+                      ? "font-bold text-[#0984A4] hover:text-[#116080]"
+                      : "font-bold text-[#144373] hover:text-[#0C2A56]"
                   }
                 >
                   Call for Paper
@@ -189,7 +189,7 @@ const Navbar = () => {
                       isCallDropdownOpen ? "rotate-180" : "rotate-0"
                     }`}
                     fill="none"
-                    stroke="#365427"
+                    stroke="#0C2A56"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -213,8 +213,8 @@ const Navbar = () => {
                       onClick={() => setIsMenuOpen(false)}
                       className={
                         isActive(link.href)
-                          ? "font-bold text-yellow-500 hover:text-yellow-600"
-                          : "font-bold text-green-800 hover:text-green-900"
+                      ? "font-bold text-[#0984A4] hover:text-[#116080]"
+                      : "font-bold text-[#144373] hover:text-[#0C2A56]"
                       }
                     >
                       {link.label}
@@ -230,8 +230,8 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
               className={
                 isActive(registerLink.href)
-                  ? "font-bold text-yellow-500 hover:text-yellow-600"
-                  : "font-bold text-green-800 hover:text-green-900"
+                      ? "font-bold text-[#0984A4] hover:text-[#116080]"
+                      : "font-bold text-[#144373] hover:text-[#0C2A56]"
               }
             >
               {registerLink.label}

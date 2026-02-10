@@ -17,7 +17,7 @@ const SpeakerSection = () => {
       <div className="container mx-auto px-4">
         <h2
           className="text-3xl font-bold text-center mb-12"
-          style={{ color: "#365427" }}
+          style={{ color: "#0C2A56" }}
         >
           Speakers
         </h2>
@@ -29,7 +29,7 @@ const SpeakerSection = () => {
               key={index}
               className="rounded-lg shadow-lg overflow-hidden w-full max-w-xs"
               style={{
-                background: "linear-gradient(to bottom, #558C3F, #1F4923)",
+                background: "linear-gradient(to bottom, #144373, #0C2A56)"
               }}
             >
               {/* Image Section */}

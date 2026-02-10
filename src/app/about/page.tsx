@@ -8,7 +8,7 @@ export default function About() {
       <header className="relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 py-16">
           {/* Judul utama */}
-          <h2 className="text-[48px] font-semibold text-[#365427] text-center mb-8">
+          <h2 className="text-[48px] font-semibold text-[#0C2A56] text-center mb-8">
             About ICOMBUS
           </h2>
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function RegistrationFee() {
   return (
-    <section className="relative bg-[#B19726] py-16 overflow-hidden">
+    <section className="relative bg-[#0984A4] py-16 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute left-0 top-1/4 h-full">
         <Image
@@ -26,13 +26,13 @@ export default function RegistrationFee() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl mb-12">
             {/* National Fee */}
             <div className="bg-white/30 backdrop-blur-md rounded-3xl p-6 md:p-8 shadow-xl">
-              <h3 className="text-3xl md:text-4xl text-center font-semibold text-[#365427] mb-6">
+              <h3 className="text-3xl md:text-4xl text-center font-semibold text-[#0C2A56] mb-6">
                 National
               </h3>
               <div className="grid grid-cols-2 gap-4 md:gap-6">
                 {/* Participant */}
                 <div className="rounded-xl overflow-hidden shadow-lg">
-                  <div className="bg-gradient-to-t from-[#1F4923] to-[#558C3F] p-3 md:p-4 text-center text-white">
+                  <div className="bg-gradient-to-t from-[#0C2A56] to-[#144373] p-3 md:p-4 text-center text-white">
                     <p className="font-semibold text-lg md:text-xl">
                       Participant
                     </p>
@@ -46,7 +46,7 @@ export default function RegistrationFee() {
                 
                 {/* Undergraduate */}
                 <div className="rounded-xl overflow-hidden shadow-lg">
-                  <div className="bg-gradient-to-t from-[#1F4923] to-[#558C3F] p-3 md:p-4 text-center text-white">
+                  <div className="bg-gradient-to-t from-[#0C2A56] to-[#144373] p-3 md:p-4 text-center text-white">
                     <p className="font-semibold text-lg md:text-xl">
                       Undergraduate
                     </p>
@@ -60,7 +60,7 @@ export default function RegistrationFee() {
 
                 {/* Co-Host */}
                 <div className="rounded-xl overflow-hidden shadow-lg">
-                  <div className="bg-gradient-to-t from-[#1F4923] to-[#558C3F] p-3 md:p-4 text-center text-white">
+                  <div className="bg-gradient-to-t from-[#0C2A56] to-[#144373] p-3 md:p-4 text-center text-white">
                     <p className="font-semibold text-lg md:text-xl">
                       Co-Host
                     </p>
@@ -73,7 +73,7 @@ export default function RegistrationFee() {
                 </div>
               </div>
 
-              <div className="mt-4 bg-white/40 p-3 rounded-lg text-center text-[#365427]">
+              <div className="mt-4 bg-white/40 p-3 rounded-lg text-center text-[#0C2A56]">
                 <p className="font-medium">
                   For National participants, please pay using Bank BCA transfer
                 </p>
@@ -82,13 +82,13 @@ export default function RegistrationFee() {
 
             {/* International Fee */}
             <div className="bg-white/30 backdrop-blur-md rounded-3xl p-6 md:p-8 shadow-xl">
-              <h3 className="text-3xl md:text-4xl text-center font-semibold text-[#365427] mb-6">
+              <h3 className="text-3xl md:text-4xl text-center font-semibold text-[#0C2A56] mb-6">
                 International
               </h3>
               <div className="grid grid-cols-2 gap-4 md:gap-6">
                 {/* Participant */}
                 <div className="rounded-xl overflow-hidden shadow-lg">
-                  <div className="bg-gradient-to-t from-[#1F4923] to-[#558C3F] p-3 md:p-4 text-center text-white">
+                  <div className="bg-gradient-to-t from-[#0C2A56] to-[#144373] p-3 md:p-4 text-center text-white">
                     <p className="font-semibold text-lg md:text-xl">
                       Participant
                     </p>
@@ -102,7 +102,7 @@ export default function RegistrationFee() {
 
                 {/* Undergraduate */}
                 <div className="rounded-xl overflow-hidden shadow-lg">
-                  <div className="bg-gradient-to-t from-[#1F4923] to-[#558C3F] p-3 md:p-4 text-center text-white">
+                  <div className="bg-gradient-to-t from-[#0C2A56] to-[#144373] p-3 md:p-4 text-center text-white">
                     <p className="font-semibold text-lg md:text-xl">
                       Undergraduate
                     </p>
@@ -116,7 +116,7 @@ export default function RegistrationFee() {
 
                 {/* Co-Host */}
                 <div className="rounded-xl overflow-hidden shadow-lg">
-                  <div className="bg-gradient-to-t from-[#1F4923] to-[#558C3F] p-3 md:p-4 text-center text-white">
+                  <div className="bg-gradient-to-t from-[#0C2A56] to-[#144373] p-3 md:p-4 text-center text-white">
                     <p className="font-semibold text-lg md:text-xl">
                       Co-Host
                     </p>
@@ -128,7 +128,7 @@ export default function RegistrationFee() {
                   </div>
                 </div>
               </div>
-              <div className="mt-4 bg-white/40 p-3 rounded-lg text-center text-[#365427]">
+              <div className="mt-4 bg-white/40 p-3 rounded-lg text-center text-[#0C2A56]">
                 <p className="font-medium">
                   For International participants, please pay using PayPal
                 </p>
@@ -139,7 +139,7 @@ export default function RegistrationFee() {
           {/* Transfer Information */}
           <div className="flex flex-col space-y-8 items-center w-full max-w-3xl">
             {/* Bank BCA Transfer */}
-            <div className="bg-gradient-to-r from-[#1F4923] to-[#558C3F] text-white rounded-full py-6 px-8 md:px-10 shadow-xl w-full">
+            <div className="bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white rounded-full py-6 px-8 md:px-10 shadow-xl w-full">
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-semibold mb-2">
                   Transfer to:
@@ -159,7 +159,7 @@ export default function RegistrationFee() {
             </div>
 
             {/* PayPal Transfer */}
-            <div className="bg-gradient-to-r from-[#1F4923] to-[#558C3F] text-white rounded-full py-6 px-8 md:px-10 shadow-xl w-full">
+            <div className="bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white rounded-full py-6 px-8 md:px-10 shadow-xl w-full">
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-semibold mb-2">
                   Transfer to:

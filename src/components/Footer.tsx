@@ -39,7 +39,7 @@ const Footer = () => {
   return (
     <footer className="bg-white text-black">
       {/* Garis hijau di bagian atas */}
-      <div style={{ backgroundColor: "#1F4923", height: "4px" }} />
+      <div style={{ backgroundColor: "#0C2A56", height: "4px" }} />
 
       <div className="container mx-auto p-8">
         <div className="text-center mb-6">
@@ -103,7 +103,7 @@ const Footer = () => {
         <div
           className="mt-8 rounded-full py-4 px-8 text-white text-center max-w-lg mx-auto"
           style={{
-            background: "linear-gradient(to right, #1F4923, #558C3F)",
+            background: "linear-gradient(to right, #0C2A56, #144373)",
           }}
         >
           <p className="font-medium">Contact Person:</p>

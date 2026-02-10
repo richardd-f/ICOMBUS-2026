@@ -14,7 +14,7 @@ const Register = () => {
         <div className="container mx-auto px-4">
           <h2
             className="text-3xl font-bold text-center mb-12"
-            style={{ color: "#365427" }}
+            style={{ color: "#0C2A56" }}
           >
             How to Register
           </h2>
@@ -24,7 +24,7 @@ const Register = () => {
             <div
               className="rounded-lg shadow-lg overflow-hidden"
               style={{
-                background: "linear-gradient(to bottom, #558C3F, #1F4923)",
+                background: "linear-gradient(to bottom, #144373, #0C2A56)",
                 width: "100%",
                 maxWidth: "560px",
               }}
@@ -47,7 +47,7 @@ const Register = () => {
             <div
               className="rounded-lg shadow-lg overflow-hidden"
               style={{
-                background: "linear-gradient(to bottom, #558C3F, #1F4923)",
+                background: "linear-gradient(to bottom, #144373, #0C2A56)",
                 width: "100%",
                 maxWidth: "560px",
               }}
@@ -82,7 +82,7 @@ const Register = () => {
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-lg text-white font-bold text-lg transition-all hover:shadow-lg"
               style={{
-                background: "linear-gradient(to right, #558C3F, #1F4923)",
+                background: "linear-gradient(to right, #144373, #0C2A56)",
               }}
             >
               Register Now

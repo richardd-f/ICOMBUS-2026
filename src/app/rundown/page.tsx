@@ -515,13 +515,13 @@ const Rundown = () => {
             {/* Container flex */}
             <a
               href="https://docs.google.com/uc?export=download&id=1eMpvc033pvxAS1Of0IFav3VFqVZ9BiJq"
-              className="inline-block bg-gradient-to-r from-[#345327] to-[#A3953B] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90 text-xs sm:text-sm" // Menyesuaikan padding dan ukuran teks untuk mobile
+              className="inline-block bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90 text-xs sm:text-sm" // Menyesuaikan padding dan ukuran teks untuk mobile
             >
               Download Rundown
             </a>
             <a
               href="https://docs.google.com/uc?export=download&id=1jt9mIlXDjcM5DfBSQ6n61FPKk6-yvZXj"
-              className="inline-block bg-gradient-to-r from-[#345327] to-[#A3953B] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90 text-xs sm:text-sm" // Menyesuaikan padding dan ukuran teks untuk mobile
+              className="inline-block bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90 text-xs sm:text-sm" // Menyesuaikan padding dan ukuran teks untuk mobile
             >
               Download Guidebook
             </a>
@@ -539,7 +539,7 @@ const Rundown = () => {
           </div>
 
           {/* Judul */}
-          <h1 className="text-2xl md:text-3xl font-bold mb-2 text-[#345327]">
+          <h1 className="text-2xl md:text-3xl font-bold mb-2 text-[#0C2A56]">
             Rundown - Main Session
           </h1>
           <p className="text-gray-600 font-semibold">Online: Zoom</p>
@@ -555,30 +555,30 @@ const Rundown = () => {
 
         {/* Tabel rundown utama */}
         <div className="overflow-x-auto mb-12">
-          <table className="min-w-full border border-[#1F4923] text-left text-xs sm:text-sm md:text-base">
-            <thead className="bg-[#1F4923] text-white">
+          <table className="min-w-full border border-[#0C2A56] text-left text-xs sm:text-sm md:text-base">
+            <thead className="bg-[#0C2A56] text-white">
               <tr>
-                <th className="p-3 border-r border-[#1F4923]">Start</th>
-                <th className="p-3 border-r border-[#1F4923]">End</th>
-                <th className="p-3 border-r border-[#1F4923]">Duration</th>
-                <th className="p-3 border-r border-[#1F4923]">Venue</th>
+                <th className="p-3 border-r border-[#0C2A56]">Start</th>
+                <th className="p-3 border-r border-[#0C2A56]">End</th>
+                <th className="p-3 border-r border-[#0C2A56]">Duration</th>
+                <th className="p-3 border-r border-[#0C2A56]">Venue</th>
                 <th className="p-3">Activity</th>
               </tr>
             </thead>
             <tbody className="text-black">
               {rundownData.map((item, index) => (
                 <tr key={index} className="hover:bg-gray-50">
-                  <td className="p-3 border-b border-[#1F4923]">
+                  <td className="p-3 border-b border-[#0C2A56]">
                     {item.start}
                   </td>
-                  <td className="p-3 border-b border-[#1F4923]">{item.end}</td>
-                  <td className="p-3 border-b border-[#1F4923]">
+                  <td className="p-3 border-b border-[#0C2A56]">{item.end}</td>
+                  <td className="p-3 border-b border-[#0C2A56]">
                     {item.duration}
                   </td>
-                  <td className="p-3 border-b border-[#1F4923]">
+                  <td className="p-3 border-b border-[#0C2A56]">
                     {item.venue}
                   </td>
-                  <td className="p-3 border-b border-[#1F4923]">
+                  <td className="p-3 border-b border-[#0C2A56]">
                     {item.activity}
                   </td>
                 </tr>
@@ -591,13 +591,13 @@ const Rundown = () => {
         <div className="text-left mb-8">
           <a
             href="https://docs.google.com/uc?export=download&id=1g6ZTONhL7U5NL19So4h0O1hVEj0vlLtd"
-            className="inline-block bg-gradient-to-r from-[#345327] to-[#A3953B] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90"
+            className="inline-block bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90"
           >
             Download Break Out Room Details
           </a>
 
           {/* Judul */}
-          <h1 className="text-2xl md:text-3xl font-bold mb-2 text-[#345327] mt-8">
+          <h1 className="text-2xl md:text-3xl font-bold mb-2 text-[#0C2A56] mt-8">
             Rundown - Break Out Rooms (13:05 - 15:20)
           </h1>
           <p className="text-gray-600 font-semibold">Online: Zoom</p>
@@ -615,7 +615,7 @@ const Rundown = () => {
 
           {/* Breakout Room Rules Section */}
           <div className="mb-8 p-4 border border-gray-300 rounded-lg bg-gray-50">
-            <h2 className="text-xl font-semibold text-[#3f673b] mb-3">
+            <h2 className="text-xl font-semibold text-[#0C2A56] mb-3">
               Breakout Room Rules
             </h2>
             <ul className="list-disc list-inside text-gray-700 space-y-2 text-sm md:text-base">
@@ -630,23 +630,23 @@ const Rundown = () => {
         {/* Tabel BOR */}
         {borData.map((bor, borIndex) => (
           <div key={borIndex} className="overflow-x-auto mb-10">
-            <h2 className="text-xl md:text-2xl font-semibold mb-3 text-[#3f673b]">
+            <h2 className="text-xl md:text-2xl font-semibold mb-3 text-[#0C2A56]">
               Break Out Room {bor.room}
             </h2>
-            <table className="min-w-full border border-[#1F4923] text-left text-xs sm:text-sm md:text-base">
-              <thead className="bg-[#1F4923] text-white">
+            <table className="min-w-full border border-[#0C2A56] text-left text-xs sm:text-sm md:text-base">
+              <thead className="bg-[#0C2A56] text-white">
                 <tr>
-                  <th className="p-3 border-r border-[#1F4923] w-3/5">TITLE</th>
+                  <th className="p-3 border-r border-[#0C2A56] w-3/5">TITLE</th>
                   <th className="p-3 w-2/5">NAME</th>
                 </tr>
               </thead>
               <tbody className="text-black">
                 {bor.presenters.map((presenter, presenterIndex) => (
                   <tr key={presenterIndex} className="hover:bg-gray-50">
-                    <td className="p-3 border-b border-[#1F4923]">
+                    <td className="p-3 border-b border-[#0C2A56]">
                       {presenter.title}
                     </td>
-                    <td className="p-3 border-b border-[#1F4923]">
+                    <td className="p-3 border-b border-[#0C2A56]">
                       {presenter.name}
                     </td>
                   </tr>

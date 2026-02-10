@@ -26,7 +26,7 @@ export default function Hero() {
         />
 
         {/* Judul utama */}
-        <h2 className="text-[48px] font-semibold text-[#365427]">
+        <h2 className="text-[48px] font-semibold text-[#0C2A56]">
           ICOMBUS Conference 2026
         </h2>
 
@@ -42,7 +42,7 @@ export default function Hero() {
 
         {/* Tombol */}
         <div className="mt-8 flex flex-col items-center gap-4">
-          <span className="bg-gradient-to-r from-[#1F4923] to-[#558C3F] text-white px-6 py-2 rounded-full text-lg md:text-xl font-normal">
+          <span className="bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white px-6 py-2 rounded-full text-lg md:text-xl font-normal">
             Universitas Ciputra Surabaya
           </span>
           <div className="mt-8 flex flex-row items-center gap-4">
@@ -50,7 +50,7 @@ export default function Hero() {
               href="https://forms.gle/Zn34gCVtwM53kQz3A"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-[#1F4923] to-[#558C3F] text-white px-6 py-2 rounded-full text-lg md:text-xl font-medium transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:[background-image:none] hover:bg-[#FFD449]"
+              className="bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white px-6 py-2 rounded-full text-lg md:text-xl font-medium transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:[background-image:none] hover:bg-[#0984A4]"
             >
               CONFERENCE REGISTER
             </a>
@@ -58,7 +58,7 @@ export default function Hero() {
               href="https://forms.gle/Zn34gCVtwM53kQz3A"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-[#1F4923] to-[#558C3F] text-white px-6 py-2 rounded-full text-lg md:text-xl font-medium transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:[background-image:none] hover:bg-[#FFD449]"
+              className="bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white px-6 py-2 rounded-full text-lg md:text-xl font-medium transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:[background-image:none] hover:bg-[#0984A4]"
             >
               PRESENTER REGISTER
             </a>

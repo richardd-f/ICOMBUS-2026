@@ -51,7 +51,7 @@ export default function ImportantDates() {
         {/* Header */}
         <h2
           className="text-3xl font-bold text-center mb-12 py-4"
-          style={{ color: "#365427" }}
+          style={{ color: "#0C2A56" }}
         >
           TIMELINE
         </h2>
@@ -61,7 +61,7 @@ export default function ImportantDates() {
           <div
             className="absolute left-1/2 transform -translate-x-1/2 h-full w-1"
             style={{
-              background: "linear-gradient(to bottom, #214B23, #FFD449)",
+              background: "linear-gradient(to bottom, #0C2A56, #0984A4)",
               zIndex: 1,
             }}
           ></div>
@@ -77,13 +77,13 @@ export default function ImportantDates() {
                 <div
                   className="absolute left-1/2 transform -translate-x-1/2 z-10 w-12 h-12 rounded-full flex items-center justify-center"
                   style={{
-                    backgroundColor: "#FFD449",
-                    border: "4px solid #214B23",
+                    backgroundColor: "#0984A4",
+                    border: "4px solid #0C2A56",
                   }}
                 >
                   <div
                     className="w-6 h-6 rounded-full"
-                    style={{ backgroundColor: "#214B23" }}
+                    style={{ backgroundColor: "#0C2A56" }}
                   ></div>
                 </div>
 
@@ -103,15 +103,15 @@ export default function ImportantDates() {
                     marginLeft: index % 2 === 0 ? "50px" : "auto",
                     marginRight: index % 2 === 0 ? "auto" : "50px",
                     maxWidth: "calc(50% - 50px)",
-                    backgroundColor: "rgba(255, 212, 73, 0.2)",
-                    borderLeft: index % 2 === 0 ? "4px solid #214B23" : "none",
-                    borderRight: index % 2 !== 0 ? "4px solid #214B23" : "none",
+                    backgroundColor: "#0984A4",
+                    borderLeft: index % 2 === 0 ? "4px solid #0C2A56" : "none",
+                    borderRight: index % 2 !== 0 ? "4px solid #0C2A56" : "none",
                   }}
                 >
-                  <p className="font-bold text-lg text-[#214B23]">
+                  <p className="font-bold text-lg text-[#0C2A56]">
                     {item.date}
                   </p>
-                  <p className="text-base text-black">{item.description}</p>
+                  <p className="text-base text-white">{item.description}</p>
                 </div>
               </div>
             ))}

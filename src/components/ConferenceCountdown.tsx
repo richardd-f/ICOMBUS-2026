@@ -5,7 +5,7 @@ import Countdown from "./Countdown";
 
 const ConferenceCountdown = () => {
   return (
-    <section className="py-8" style={{ backgroundColor: "#1F4522" }}>
+    <section className="py-8" style={{ backgroundColor: "#0C2A56" }}>
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center">
         {/* Bagian Teks */}
         <div className="text-center">
@@ -19,7 +19,7 @@ const ConferenceCountdown = () => {
 
         {/* Bagian Countdown Timer */}
         <div className="mt-4 md:mt-0 md:ml-10">
-          <Countdown textColor="#FFD449" />
+          <Countdown textColor="#0984A4" />
         </div>
       </div>
     </section>
