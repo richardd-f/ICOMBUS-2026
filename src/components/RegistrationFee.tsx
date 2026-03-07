@@ -29,7 +29,7 @@ export default function RegistrationFee() {
               <h3 className="text-3xl md:text-4xl text-center font-semibold text-[#0C2A56] mb-6">
                 National
               </h3>
-              <div className="grid grid-cols-2 gap-4 md:gap-6">
+              <div className="flex flex-wrap justify-center gap-4 md:gap-6 [&>div]:w-[calc(50%-0.5rem)] md:[&>div]:w-[calc(50%-0.75rem)]">
                 {/* Participant */}
                 <div className="rounded-xl overflow-hidden shadow-lg">
                   <div className="bg-gradient-to-t from-[#0C2A56] to-[#144373] p-3 md:p-4 text-center text-white">
@@ -85,7 +85,7 @@ export default function RegistrationFee() {
               <h3 className="text-3xl md:text-4xl text-center font-semibold text-[#0C2A56] mb-6">
                 International
               </h3>
-              <div className="grid grid-cols-2 gap-4 md:gap-6">
+              <div className="flex flex-wrap justify-center gap-4 md:gap-6 [&>div]:w-[calc(50%-0.5rem)] md:[&>div]:w-[calc(50%-0.75rem)]">
                 {/* Participant */}
                 <div className="rounded-xl overflow-hidden shadow-lg">
                   <div className="bg-gradient-to-t from-[#0C2A56] to-[#144373] p-3 md:p-4 text-center text-white">
@@ -146,13 +146,13 @@ export default function RegistrationFee() {
                 </h3>
                 <p className="font-medium text-xl md:text-2xl">Bank BCA</p>
                 <p className="text-lg md:text-xl">
-                  Account Name: Nikita Bella Angelina
+                  Account Name: Kho Valencia
                 </p>
                 <p className="text-lg md:text-xl">
                   As Student Union's Treasurer
                 </p>
                 <p className="text-lg md:text-xl">
-                  Account Number: 8630 481 741
+                  Account Number: 0092872571
                 </p>
                 <p className="mt-2 text-sm italic">For National Participants</p>
               </div>
@@ -165,16 +165,16 @@ export default function RegistrationFee() {
                   Transfer to:
                 </h3>
                 <p className="font-medium text-xl md:text-2xl">Paypal</p>
-                <p className="text-lg md:text-xl">Account Name: SUIBM</p>
+                <p className="text-lg md:text-xl">Account Name: Febe Amanda</p>
                 <p className="text-lg md:text-xl">
                   Account Link:{" "}
                   <a
-                    href="https://paypal.me/SUIBM"
+                    href="https://paypal.me/febeamanda"
                     className="underline text-white hover:text-gray-200"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    paypal.me/SUIBM
+                    paypal.me/febeamanda
                   </a>
                 </p>
                 <p className="mt-2 text-sm italic">

@@ -28,9 +28,9 @@ const Navbar = () => {
 
   // Call for Paper dropdown links
   const callPaperLinks = [
-    { href: "/callPaper", label: "Call for Paper" },
-    { href: "/callPaper/abstractFormat", label: "Abstract Format" },
-    { href: "/callPaper/fullPaperFormat", label: "Full Paper Format" },
+    { href: "https://forms.gle/Zn34gCVtwM53kQz3A", label: "Call for Paper" },
+    { href: "https://docs.google.com/document/d/1wAeLxNkV5IDWTjH2xkz9AuioIbmtL7c4/edit?usp=drivesdk&ouid=107258479958243935787&rtpof=true&sd=true", label: "Abstract Format" },
+    { href: "https://docs.google.com/document/d/1iah2JcBOOZXO6S03819--3n9Nw7NdhzD/edit?usp=drivesdk&ouid=104359832806415116493&rtpof=true&sd=true", label: "Full Paper Format" },
     // { href: "/callPaper/posterFormat", label: "Poster Format" },
   ];
 
@@ -40,7 +40,7 @@ const Navbar = () => {
         {/* Logo */}
         <div>
           <Image
-            src="/logo.png"
+            src="/logo2.png"
             alt="ICOMBUS logo"
             width={200}
             height={50}
