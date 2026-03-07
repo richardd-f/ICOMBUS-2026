@@ -7,7 +7,19 @@ const speakers = [
     name: "Prof. Dennis Cheek, BA, BS, MA, PhD, PhD, FRSA, AAAS Fellow",
     title:
       "Dean, School of Entrepreneurship & Humanities Universitas Ciputra Surabaya",
-    image: "/speaker1.jpg",
+    image: "/images/speakers/speaker_dennis.jpg",
+  },
+  {
+    name: "Dr. Dian Mayasari, Msc.",
+    title:
+      "University of Wales Trinity St David",
+    image: "/images/speakers/speaker_dian.jpg",
+  },
+  {
+    name: "Diana Hartono, CFP",
+    title:
+      "Maybank Sekuritas Indonesia",
+    image: "/images/speakers/speaker_diana.jpg",
   },
 ];
 
@@ -22,8 +34,8 @@ const SpeakerSection = () => {
           Speakers
         </h2>
 
-        {/* Grid responsive */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+        {/* Flex responsive */}
+        <div className="flex flex-wrap justify-center gap-8">
           {speakers.map((speaker, index) => (
             <div
               key={index}
