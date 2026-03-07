@@ -4,37 +4,42 @@ const Footer = () => {
   // Definisikan path dan alt text untuk logo Co-Host
   var coHostLogos = [
     {
-      src: "/images/Logo_Universitas_Sanata_Dharma.svg.png",
-      alt: "Universitas Sanata Dharma",
+      src: "/images/coHost/doaj.jpg",
+      alt: "DOAJ",
       width: 150,
       height: 80,
     },
     {
-      src: "/images/universitas_atma_jaya.png",
-      alt: "Universitas Atma Jaya Yogyakarta",
+      src: "/images/coHost/indexCopernicus.jpg",
+      alt: "Index Copernicus",
       width: 110,
       height: 100,
     },
     {
-      src: "/images/logo-unpak_menu_web.webp",
-      alt: "Universitas Pakuan",
+      src: "/images/coHost/jaef.jpg",
+      alt: "JAEF",
       width: 110,
       height: 100,
     },
     {
-      src: "/images/Logo_Universitas_Muhammadiyah_Tangerang.png",
-      alt: "Universitas Muhammadiyah Tangerang",
+      src: "/images/coHost/mapi.jpg",
+      alt: "MAPI",
       width: 110,
       height: 100,
     },
     {
-      src: "/images/Logo_Universitas_Padjadjaran.png",
-      alt: "Universitas Padjadjaran",
+      src: "/images/coHost/rme.jpg",
+      alt: "RME",
       width: 110,
       height: 100,
     },
+    {
+      src: "/images/coHost/sinta.jpg",
+      alt: "SINTA",
+      width: 110,
+      height: 100,
+    }
   ];
-  coHostLogos = [];
 
   return (
     <footer className="bg-white text-black">
@@ -78,9 +83,9 @@ const Footer = () => {
         </div>
 
         {/* Co-Hosted by Section */}
-        {/* <div className="text-center mb-6">
+        <div className="text-center mb-6">
           <h2 className="text-xl font-bold">Co-Hosted by</h2>
-        </div> */}
+        </div>
 
         <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8 mb-10">
           {coHostLogos.map((logo, index) => (
