@@ -9,89 +9,81 @@ const rundownData = [
     end: "09:00",
     duration: "0:30:00",
     venue: "Main Room",
-    activity: "Arrival dan Registration",
+    activity: "Open Gate dan Registration",
   },
   {
     start: "09:00",
-    end: "09:10",
-    duration: "0:10:00",
+    end: "09:07",
+    duration: "0:07:00",
     venue: "Main Room",
     activity: "Opening Session - Welcoming Address, Opening prayer",
   },
   {
-    start: "09:10",
-    end: "09:15",
-    duration: "0:05:00",
+    start: "09:07",
+    end: "09:13",
+    duration: "0:06:00",
     venue: "Main Room",
     activity: "National Anthem and Hymne UC",
   },
   {
-    start: "09:15",
-    end: "09:18",
+    start: "09:13",
+    end: "09:16",
     duration: "0:03:00",
     venue: "Main Room",
-    activity: "Opening Remarks by Head of Icombus - Jean Athalia",
+    activity: "Opening Remarks by Head of Icombus - Eddrick Christian Chang",
   },
   {
-    start: "09:18",
-    end: "09:20",
-    duration: "0:02:00",
+    start: "09:16",
+    end: "09:19",
+    duration: "0:03:00",
     venue: "Main Room",
     activity:
-      "Opening Remarks by The President of IBM Student Union - Kevin Djolin",
+      "Opening Remarks by The President of IBM Student Union - Jeremy Misael Mulyono",
   },
   {
-    start: "09:20",
-    end: "09:23",
+    start: "09:19",
+    end: "09:22",
     duration: "0:03:00",
     venue: "Main Room",
     activity: "Opening Remarks by Vice Head Department of IBM Major",
   },
   {
-    start: "09:23",
-    end: "09:26",
+    start: "09:22",
+    end: "09:25",
     duration: "0:03:00",
     venue: "Main Room",
     activity:
       "Rundown Reading - Reading rules of ICOMBUS, Explanation of ICOMBUS timeline",
   },
   {
-    start: "09:26",
-    end: "10:51",
-    duration: "1:25:00",
+    start: "09:25",
+    end: "12:00",
+    duration: "2:35:00",
     venue: "Main Room",
     activity:
-      "Concurrent Session 1 - MC Time, Speaker Session by Dr. Harry Patria Ph.D., Speaker Session by Prof. Dennis Cheek BA, BS, MA, Ph.D., FRSA, AAAS, QnA, Speaker Documentation",
+      "Speaker Session by Dr. Dian Mayasari, Msc., Speaker Session by Prof. Dennis Cheek BA, BS, MA, Ph.D., FRSA, AAAS, QnA, Speaker Session by Diana Hartono, CFP",
   },
   {
-    start: "10:51",
-    end: "12:16",
-    duration: "1:25:00",
+    start: "12:00",
+    end: "13:15",
+    duration: "1:15:00",
     venue: "Main Room",
-    activity:
-      "Concurrent Session 2 - MC Time, Speaker Session by Dr. Nor'ain Abdullah, Speaker Session by Miguel Angel Esquivas Padilla IA., M.SE., QnA, Speaker Documentation",
+    activity: "Break Time",
   },
   {
-    start: "12:16",
-    end: "13:05",
-    duration: "0:49:00",
-    venue: "Main Room",
-    activity: "MC Time, Break Time",
-  },
-  {
-    start: "13:05",
-    end: "15:20",
-    duration: "2:15:00",
+    start: "13:15",
+    end: "15:50",
+    duration: "2:35:00",
     venue: "Break Out Room",
-    activity: "Concurrent Session 3 - MC Time, Break out room session",
+    activity: "Break out room session",
   },
   {
-    start: "15:20",
-    end: "15:35",
+    start: "15:50",
+    end: "16:05",
     duration: "0:15:00",
     venue: "Main Room",
     activity:
-      "Award and Closing ceremony - MC Time, closing, documentation, closing prayer",
+      "Award and Closing ceremony",
   },
 ];
 
@@ -530,7 +522,7 @@ const Rundown = () => {
           {/* Logo */}
           <div className="py-4">
             <Image
-              src="/logo.png"
+              src="/ICOMBUS.svg"
               alt="ICOMBUS logo"
               width={200}
               height={50}
