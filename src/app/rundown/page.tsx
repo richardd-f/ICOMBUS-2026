@@ -15,10 +15,15 @@ const rundownData = [
     start: "09:00",
     end: "09:07",
     duration: "0:07:00",
+    end: "09:07",
+    duration: "0:07:00",
     venue: "Main Room",
     activity: "Opening Session - Welcoming Address, Opening prayer",
   },
   {
+    start: "09:07",
+    end: "09:13",
+    duration: "0:06:00",
     start: "09:07",
     end: "09:13",
     duration: "0:06:00",
@@ -68,8 +73,7 @@ const rundownData = [
     end: "13:15",
     duration: "1:15:00",
     venue: "Main Room",
-    activity:
-      "Break Time",
+    activity: "Break Time",
   },
   {
     start: "13:15",
@@ -522,7 +526,7 @@ const Rundown = () => {
           {/* Logo */}
           <div className="py-4">
             <Image
-              src="/logo.png"
+              src="/ICOMBUS.svg"
               alt="ICOMBUS logo"
               width={200}
               height={50}

@@ -45,7 +45,7 @@ export default function ImportantDates() {
       <div className="container mx-auto px-4">
         {/* Event logo */}
         <div className="flex justify-center mb-8">
-          <Image src="/logo.png" alt="Event Logo" width={500} height={200} />
+          <Image src="/ICOMBUS.svg" alt="Event Logo" width={500} height={200} />
         </div>
 
         {/* Header */}
