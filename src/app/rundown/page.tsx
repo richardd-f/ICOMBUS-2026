@@ -535,7 +535,7 @@ const Rundown = () => {
             Rundown - Main Session
           </h1>
           <p className="text-gray-600 font-semibold">Online: Zoom</p>
-          <p className="text-gray-600 font-semibold mb-4">Date: 30 May 2025</p>
+          <p className="text-gray-600 font-semibold mb-4">Date: 18 April 2026</p>
           <p className="text-black font-semibold mb-4">
             Meeting ID: 942 2919 3940
           </p>
