@@ -6,10 +6,10 @@ export default function RegistrationFee() {
       {/* Background Elements */}
       <div className="absolute left-0 top-1/4 h-full">
         <Image
-          src="/images/asset3.png"
+          src="/images/ringAsset.png"
           alt="Triangular design element"
-          width={300}
-          height={300}
+          width={200}
+          height={200}
           className="object-contain drop-shadow-2xl transform -rotate-12"
         />
       </div>

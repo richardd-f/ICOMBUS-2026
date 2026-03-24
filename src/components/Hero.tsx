@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 py-16 text-center relative">
         {/* Dekorasi kiri */}
         <img
-          src="/images/asset2.png"
+          src="/images/halfRingAsset.png"
           alt="Dekorasi kiri"
           // Contoh: letakkan di pojok kiri atas, dengan rotasi sekitar 10 derajat,
           // dan perbesar sedikit (width-48 = 12rem) supaya lebih mirip desain Figma
@@ -17,7 +17,7 @@ export default function Hero() {
 
         {/* Dekorasi kanan */}
         <img
-          src="/images/asset1.png"
+          src="/images/cubeAsset.png"
           alt="Dekorasi kanan"
           // Contoh: letakkan di pojok kanan atas, rotasi -10 derajat
           className="hidden md:block absolute w-48 h-auto drop-shadow-4xl
