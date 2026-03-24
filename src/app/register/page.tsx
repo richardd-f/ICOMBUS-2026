@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const Register = () => {
-  const formUrl = "https://forms.gle/uB9tQ4kUznuijfAv8";
+  const formUrl = "https://forms.gle/Zn34gCVtwM53kQz3A";
 
   return (
     <div className="min-h-screen flex flex-col">

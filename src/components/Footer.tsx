@@ -84,7 +84,7 @@ const Footer = () => {
 
         {/* Co-Hosted by Section */}
         <div className="text-center mb-6">
-          <h2 className="text-xl font-bold">Co-Hosted by</h2>
+          <h2 className="text-xl font-bold">Publication Opportunities</h2>
         </div>
 
         <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8 mb-10">
