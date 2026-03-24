@@ -9,7 +9,7 @@ const rundownData = [
     end: "09:00",
     duration: "0:30:00",
     venue: "Main Room",
-    activity: "Open Gate dan Registration",
+    activity: "Open Gate and Registration",
   },
   {
     start: "09:00",
@@ -53,7 +53,7 @@ const rundownData = [
     duration: "0:03:00",
     venue: "Main Room",
     activity:
-      "Rundown Reading - Reading rules of ICOMBUS, Explanation of ICOMBUS timeline",
+      "Rundown Overview - Reading Rules of ICOMBUS, Explanation of ICOMBUS Timeline",
   },
   {
     start: "09:25",
@@ -61,7 +61,7 @@ const rundownData = [
     duration: "2:35:00",
     venue: "Main Room",
     activity:
-      "Speaker Session by Dr. Dian Mayasari, Msc., Speaker Session by Prof. Dennis Cheek BA, BS, MA, Ph.D., FRSA, AAAS, QnA, Speaker Session by Diana Hartono, CFP",
+      "Speaker Session by Dr. Dian Mayasari, Msc., Speaker Session by Prof. Dennis Cheek BA, BS,MA, Ph.D., FRSA, AAAS, QnA, Speaker Session by Diana Hartono, CFP",
   },
   {
     start: "12:00",
@@ -75,15 +75,14 @@ const rundownData = [
     end: "15:50",
     duration: "2:35:00",
     venue: "Break Out Room",
-    activity: "Break out room session",
+    activity: "Break Out Room Session",
   },
   {
     start: "15:50",
     end: "16:05",
     duration: "0:15:00",
     venue: "Main Room",
-    activity:
-      "Award and Closing ceremony",
+    activity: "Awarding and Closing ceremony",
   },
 ];
 
@@ -535,7 +534,7 @@ const Rundown = () => {
             Rundown - Main Session
           </h1>
           <p className="text-gray-600 font-semibold">Online: Zoom</p>
-          <p className="text-gray-600 font-semibold mb-4">Date: 30 May 2025</p>
+          <p className="text-gray-600 font-semibold mb-4">Date: 18 April 2026</p>
           <p className="text-black font-semibold mb-4">
             Meeting ID: 942 2919 3940
           </p>
@@ -593,7 +592,7 @@ const Rundown = () => {
             Rundown - Break Out Rooms (13:05 - 15:20)
           </h1>
           <p className="text-gray-600 font-semibold">Online: Zoom</p>
-          <p className="text-gray-600 font-semibold mb-4">Date: 30 May 2025</p>
+          <p className="text-gray-600 font-semibold mb-4">Date: 18 April 2026</p>
           <p className="text-black font-semibold mb-4">
             Meeting ID: 942 2919 3940
           </p>
