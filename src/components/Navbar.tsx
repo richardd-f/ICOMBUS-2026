@@ -40,7 +40,7 @@ const Navbar = () => {
         {/* Logo */}
         <div>
           <Image
-            src="/logo3.png"
+            src="/logo3.jpg"
             alt="ICOMBUS logo"
             width={200}
             height={50}

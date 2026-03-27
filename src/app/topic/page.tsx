@@ -28,16 +28,16 @@ const Topic = () => {
     <div className="bg-white">
       <Navbar />
       <div className="container mx-auto p-4 text-center">
-        <h1 className="text-[28px] font-semibold mb-4 text-[#365427]">
+        <h1 className="text-[28px] font-semibold mb-4 text-[#0C2A56]">
           The 1st International Conference on Management and Business Strategy
         </h1>
-        <h2 className="text-[20px] font-semibold mb-4 text-[#365427]">
+        <h2 className="text-[20px] font-semibold mb-4 text-[#0C2A56]">
           List of Topics
         </h2>
         <table className="w-full mx-auto content-center">
           <tbody>
             {topics.map((topic, index) => (
-              <tr key={index} className="border-b-5 border-[#1F4923]">
+              <tr key={index} className="border-b-5 border-[#0C2A56]">
                 <td className="py-2 px-2 text-[14px] sm:text-[16px] md:text-[20px] font-normal text-black">
                   {index + 1}.{" "}
                 </td>
