@@ -39,7 +39,7 @@ const rundownData = [
     duration: "0:03:00",
     venue: "Main Room",
     activity:
-      "Opening Remarks by The President of IBM Student Union - Jeremy Misael Mulyono",
+      "Opening Remarks by The President of IBM Student Union - Vincent Nicholaselin",
   },
   {
     start: "09:19",

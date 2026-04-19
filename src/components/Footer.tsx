@@ -78,6 +78,15 @@ const publiOportunitiesLogos = [
   },
 ];
 
+const sponsorLogos = [
+  {
+    src: "/images/sponsored/rihandCreative.jpg",
+    alt: "Rihand Creative",
+    width: 150 * 1.7,
+    height: 100 * 1.7,
+  },
+];
+
 const Footer = () => {
   return (
     <footer className="bg-white text-black">
@@ -154,6 +163,26 @@ const Footer = () => {
           ))}
         </div>
         {/* End of Publication Opportunities Section */}
+
+        {/* Sponsored by Section */}
+        <div className="text-center mb-6">
+          <h2 className="text-xl font-bold">Sponsored by</h2>
+        </div>
+
+        <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8 mb-10">
+          {sponsorLogos.map((logo, index) => (
+            <div key={index} className="p-2">
+              <Image
+                src={logo.src}
+                alt={logo.alt}
+                width={logo.width}
+                height={logo.height}
+                style={{ objectFit: "contain" }}
+              />
+            </div>
+          ))}
+        </div>
+        {/* End of Sponsored by Section */}
 
         {/* Contact Information */}
         <div
