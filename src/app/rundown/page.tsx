@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 const rundownData = [
   {
@@ -94,28 +95,53 @@ const borData = [
     presenters: [
       {
         title:
-          "The Role of Institutional Ownership in Preventing Financial Distress in Technology Companies.",
-        name: "Sherly Margaretha",
+          "Immersive Content is Not Enough: Emotional Appeal and Perceived Credibility Mediation",
+        name: "Fendy Octavianto",
       },
       {
         title:
-          "The Utilizing Systematic Literature Review and Bibliometric: Study in Environment, Social and Governance for Corporate Finance Performance",
-        name: "M Dandy Resafahlevi Nasution",
+          "Do Underwriter Reputation, Warrants, and Pre-IPO Dividend Affect Acceleration Board IPO Underpricing?",
+        name: "Surya Adam Saputra",
       },
       {
         title:
-          "The Influence of Financial Literacy and Overconfidence on Investment Decisions with Risk Tolerance as a Mediating Variable (A Study on StockInvestors in Bali Province)",
-        name: "Kadek Dewi Sawitri",
+          "Linking Mindfulness to Mindful Fashion Consumption Behavior Among Indonesian Gen Z: The Mediating Role of Pro Environmental Behavior and Moderating Effect of Social Media Engagement",
+        name: "Naomi Augusta",
       },
       {
         title:
-          "The Influence of Investment Motivation, Risk Perception, and Financial Efficacy on People's Investment Decisions in The Capital Market",
-        name: "Alhidayatullah, S.M., M.M.",
+          "Understanding Impulsive Buying in Live E-Commerce: The Interplay of Streamers’ Positive Emotions, Emotional Contagion, and Hedonic Value (Study of Generation Z on Tiktok Live)",
+        name: "Jonathan Richard Gunawan",
       },
       {
         title:
-          "THE EFFECT OF GOOD CORPORATE GOVERNANCE AND INTELLECTUAL CAPITAL ON COMPANY VALUE (In Index 100 companies listed on the Indonesia Stock Exchange for the 2019-2023 period)",
-        name: "Wahyu Setiyono",
+          "IS CORPORATE REPUTATION THE BRIDGE BETWEEN INTELLECTUAL CAPITAL AND FINANCIAL PERFORMANCE IN THE BANKING SECTOR",
+        name: "Apfia Liliosa Agatha Tarigan",
+      },
+      {
+        title:
+          "THE INFLUENCE OF FAMILY SUPPORT AND ENTREPRENEURIAL KNOWLEDGE ON ENTREPRENEURIAL INTEREST OF SATYA WACANA CHRISTIAN UNIVERSITY STUDENTS: MULTIGROUP ANALYSIS BETWEEN BUSINESS AND NON-BUSINESS FACULTY",
+        name: "Hernawan Finley Banoet",
+      },
+      {
+        title:
+          "Cognitive Trust and Affective Trust as Moderators in Radio Streaming Use Based on TAM",
+        name: "Eben Haezer Lase",
+      },
+      {
+        title:
+          "The Influence of Motivation, Social Media and Risk Perception on Students' Investment Behavior in the Capital Market",
+        name: "Ika Pratiwi Simbolon",
+      },
+      {
+        title:
+          "Do risk disclosure and firm value drive Indonesian bank stock returns?",
+        name: "Salsabila Ahadia Rahmah",
+      },
+      {
+        title:
+          "The Role of Financial Literacy on the Impact of Financial Technology based Online Loans and Its Legal Aspects",
+        name: "Ika Pratiwi Simbolon",
       },
     ],
   },
@@ -124,85 +150,90 @@ const borData = [
     room: 2,
     presenters: [
       {
-        title:
-          "THE IMPACT OF ENVIRONMENTAL, SOCIAL, GOVERNANCE (ESG) SCORE AND SELF-ASSESSMENT GCG ON FINANCIAL PERFORMANCE WITH CREDIT RISK AS A MODERATING VARIABLE IN BANKING COMPANIES LISTED ON THE INDONESIA STOCK EXCHANGE FOR THE PERIOD 2019-2023",
-        name: "Nurul Khopipah",
-      },
-      {
-        title:
-          "THE EFFECT OF BUSINESS RISK, CASH TURNOVER, AND WORKING CAPITAL TURNOVER ON LIQUIDITY MODERATED BY SALES GROWTH (IN MANUFACTURING COMPANIES IN THE CONSUMER GOODS SECTOR LISTED ON THE INDONESIA STOCK EXCHANGE IN 2019-2023)",
-        name: "Rizkiah Nurfitriani",
-      },
-      {
-        title:
-          "THE EFFECT OF SUSTAINABILITY REPORT AND FINANCIAL PERFORMANCE ON COMPANY VALUE WITH INVESTMENT OPPORTUNITY SET (IOS) AS A MODERATING VARIABLE",
-        name: "Kartika Dewi Yulianti",
-      },
-      {
-        title:
-          "THE EFFECT OF INSTITUTIONAL OWNERSHIP, MANAGERIAL OWNERSHIP AND INDEPENDENT BOARD OF COMMISSIONERS ON TAX AVOIDANCE IN COMPANIES IN THE BASIC MATERIALS SECTOR LISTED ON THE INDONESIA STOCK EXCHANGE IN 2019-2023",
-        name: "Syashi Kirana Alfiyyah",
-      },
-      {
-        title:
-          "The Effect of Financial Distress, Leverage, and Profit Management on Tax Agressiveness in Energy Sector Companies Listed on the Indonesia Stock Exchange (IDX) in 2019-2023",
-        name: "Rahma Ayu Utami",
-      },
-      {
-        title:
-          "Financial Distress Analysis Using a Comparison of the Altman Model, Springate Model, Zmijewski Model, and Grover Model in the Energy Sector Listed on the IDX for the 2019-2023 Period",
-        name: "Risma Rahayu",
-      },
-      {
-        title:
-          "FROM FRUGALITY TO INVESTMENT: THE ROLE OF FINANCIAL SELF-EFFICACY IN SHAPING INVESTMENT DECISION",
-        name: "Kezia Callista Odelyn Sinugroho",
-      },
+      "title": "Perceived Financial Risk & TPB: The Utilization of Two Different Concepts to Predict Indonesians' Behavior to Purchase Chinese-Made EV Cars",
+      "name": "Nicholas Wilson"
+    },
+    {
+      "title": "Total Quality Management on Employee Performance through Innovative Work Behavior and Dynamic Absorptive Capacity",
+      "name": "Carlos"
+    },
+    {
+      "title": "The Influence of Employer Branding and E-recruitment on Job Seekers' Intention to Apply with Corporate Reputation as a Variable Mediating",
+      "name": "Steffi Cheryl Kustanto"
+    },
+    {
+      "title": "Employer Branding and Application Intention: Employer Attractiveness as Mediator and LinkedIn as Moderator",
+      "name": "Arkaantiar Bintang Fajar"
+    },
+    {
+      "title": "The Role of Independent Commissioners in Income Smoothing Practices in The Agricultural Sector",
+      "name": "Eka Candra Nugroho"
+    },
+    {
+      "title": "The Impact of Carbon Emission Disclosure on Firm Value: Female Boards as the Moderator",
+      "name": "FX Herry Christyanto"
+    },
+    {
+      "title": "The Influence of Board Diversity on Carbon Emission Disclosure in Energy-Sector Firms",
+      "name": "Fristalia Tifani Sintana"
+    },
+    {
+      "title": "Is Intellectual Capital A Savior of Financial Distress?",
+      "name": "Aryasena Raditya Zandra"
+    },
+    {
+      "title": "Marketing Strategy in A Monopolistic Competitive Market: A Case Study On Asa Space Coffee Shop",
+      "name": "Yuni Kurniasih"
+    },
+    {
+      "title": "Did the Global Minimum Tax Break the Leverage-Tax Shield Mechanism in FAANG Companies?",
+      "name": "Adhisca Edward Edo Sadewa"
+    }
     ],
   },
   {
     room: 3,
     presenters: [
       {
-        title:
-          "The Influence of Social Media Utilization in Health Awareness Campaigns and Its Impact on Scaling Social Movements : A Case Study of Ubur Ubur Lari Community",
-        name: "Jessica Kristianti Dharsana",
-      },
-      {
-        title:
-          "Empowering Small Enterprises with Scalable Web Solutions: A Framework Integrating Responsive Design, SQL Analytics, AI Personalization, and Cloud Hosting",
-        name: "Felicia Sword",
-      },
-      {
-        title:
-          "The Effect of Fraud Triangle to Fraud Academictrough Artificial Intelligence",
-        name: "Adelia Kurnia Syahrani",
-      },
-      {
-        title:
-          "Risk Management in Financial Technology: A SystematicLiterature Review",
-        name: "Fiqrah Maulani",
-      },
-      {
-        title:
-          "Pricing Effect to Dual Sales Channel Preference Using Central Composite Logistic Regression",
-        name: "Januardi Januardi",
-      },
-      {
-        title:
-          "The Influence of Digital Marketing Whatsapp and Digital Payment System on Customer Satisfaction (at the Nur Cloth Shope)",
-        name: "Arobi Haikal",
-      },
-      {
-        title:
-          "The Effect Of Perceived Ease of Use And Perceived Usefulness On Reuse Intention With E-Satisfaction As A Mediation Variable",
-        name: "Komang Ayu Trishantika Dewi",
-      },
-      {
-        title:
-          "Analyzing The Impact Of AI-Based Digital Transformation and E-Marketing on The Sustainability and Competitiveness of MSMEs in South Sulawesi",
-        name: "Michele Jenny Mahakena",
-      },
+      "title": "Building Customer Satisfaction Through Delivery Accuracy, Cash on Delivery, and Free Shipping on Klik Indomaret in Tangerang City",
+      "name": "Anisa Rahmay"
+    },
+    {
+      "title": "The Influence of the Implementation of Green Human Resource Management and Teamwork on Employee Performance Through Work Motivation at PT Astra Sedaya Finance Karawaci Branch",
+      "name": "Rina Amanda"
+    },
+    {
+      "title": "The Appeal of advertising, Flash sales, and Online customer reviews on Purchasing decisions for Nivea facial cleanser in Tangerang City",
+      "name": "Nanda Suciatiningrum"
+    },
+    {
+      "title": "CSR Disclosure, Financial Performance, and Ownership Structure: Evidence From Indonesian Mining Companies",
+      "name": "Grazelaria Sekar Langit"
+    },
+    {
+      "title": "Islamic Social Funds, Unemployment, and Human Capital: Foundations of Indonesia's Economic Sustainability",
+      "name": "Nawal Belindawati"
+    },
+    {
+      "title": "Students’ Interest in Sukuk Investment in JABODETABEK: Examining the Influence of Financial Literacy, Motivation, and Risk Perception",
+      "name": "Rafif Aufa Fadhilah"
+    },
+    {
+      "title": "The Effect of Digital Transformation, Sustainable Leadership, and Employee Sustainable Training on the Sustainable Performance of Employees at PT Telmark Integrasi Indonesia",
+      "name": "Ega Listina Prabawati"
+    },
+    {
+      "title": "Exploring Bank Performance: Intellectual Capital, Capital Structure, and Liquidity Risk Effects",
+      "name": "Aditya Yunardi"
+    },
+    {
+      "title": "Legitimacy Theory Implementation in Social Responsibility Practices: Empirical Study of the Health Care Sector 2022-2023",
+      "name": "Kenty Riesmi Mustika Anggraini"
+    },
+    {
+      "title": "The Effect of Green Credit and Green Accounting on Financial Performance at Commercial Banks in Indonesia",
+      "name": "Annisa Banjiria"
+    }
     ],
   },
   // BOR 4
@@ -210,45 +241,41 @@ const borData = [
     room: 4,
     presenters: [
       {
-        title:
-          "Assessing the Sustainability Gap in Microfinance: A Review Based on PNM’s Sustainability Report",
-        name: "Amalia Dwi Asih",
-      },
-      {
-        title:
-          "Sustainable Supply Chain Practices and Business Performance of Culinary MSME's in West Java",
-        name: "Tribowo Rachmat Fauzan",
-      },
-      {
-        title:
-          "Evaluating ESG-Driven Strategies for Business Sustainability in the EV Sector: A Content Analysis Approach",
-        name: "Fransiska Mulyani, S.T., M.M.",
-      },
-      {
-        title:
-          "THE ROLE OF CUSTOMER SATISFACTION AND ENGAGEMENT MEDIATES THE INFLUENCE OF CUSTOMER EXPERIENCE ON REPURCHASE INTENTION",
-        name: "Nyoman Candra Tri Wahyuni",
-      },
-      {
-        title:
-          "THE EFFECT OF BRAND IMAGE AND PRODUCT QUALITY ON CONSUMER LOYALTY TOWARDS UNIQLO BRAND AT LIPPO KARAWACI SUPERMALL TANGERANG",
-        name: "Ananta Amelia Putri",
-      },
-      {
-        title:
-          "THE INFLUENCE OF FEAR OF MISSING OUT (FOMO) AND TIKTOK SOCIAL MEDIA MARKETING ON IMPULSIVE BUYING OF ADIDAS SAMBA PRODUCTS AMONG STUDENTS OF THE UNIVERSITY OF MUHAMMADIYAH TANGERANG",
-        name: "Dini",
-      },
-      {
-        title:
-          "Improving the Quality of Service of Perumda Tirta Pakuan, Bogor City: Quantitative Analysis Using Descriptive Statistics",
-        name: "Ananda Tory Diandra",
-      },
-      {
-        title:
-          "EVALUATION OF COLD CHAIN AWARENESS AND TECHNOLOGY ADOPTION IN MULTI INDUSTRY: A DESCRIPTIVE ANALYSIS",
-        name: "Imam Jaelani",
-      },
+      "title": "Analysis of the Effect of Local Taxes, Local Retribution, and Separated Regional Asset Management Results on Local Own-Source Revenue of Jambi City",
+      "name": "Ardina"
+    },
+    {
+      "title": "The Impact of Perceived Algorithmic Management on Job Engagement among Application-Based Motorcycle Taxi Drivers",
+      "name": "Edwin Tri Angga Saputra"
+    },
+    {
+      "title": "The Influence of Affective Commitment on the Career Success of Civil Servants in Indonesia",
+      "name": "Endah Setyowati"
+    },
+    {
+      "title": "ANTECEDENTS OF CAREER DEVELOPMENT AND ITS IMPACT ON PRIVATE LECTURER RETENTION IN INDONESIA",
+      "name": "Abdul Hakim"
+    },
+    {
+      "title": "DETERMINANTS OF ACCOUNTING FRAUD TENDENCY WITH UN ETHICAL BEHAVIOR AS MEDIATION (Empirical Study On Regional Government Agencies Jambi Province)",
+      "name": "M. Ihsan"
+    },
+    {
+      "title": "Optimisation of Risk-Based Capital through Loss Ratio: Solvency and Inflation in Non-Life Insurance",
+      "name": "Satiman"
+    },
+    {
+      "title": "ESG Star Listed Companies: The Impact of ESG Practices on Profitability",
+      "name": "SILSA RIDA NOOR AZKIYA"
+    },
+    {
+      "title": "Analysis of Income and Feasibility of Sugarcane Farming in Kandat Subdistrict,Kediri Regency",
+      "name": "Faris Dwi Kuncoro"
+    },
+    {
+      "title": "THE EFFECT OF DEBT TO ASSET RATIO, ASSET GROWTH, EXCHANGE RATE, AND DEBT TO EQUITY RATIO ON THE PROFITABILITY OF CPO COMPANIES IN INDONESIA",
+      "name": "Khaeril Anwar Junaedi"
+    }
     ],
   },
   // BOR 5
@@ -256,45 +283,37 @@ const borData = [
     room: 5,
     presenters: [
       {
-        title:
-          "Understanding Job Satisfaction Among International Part-Time Student Workers in Taiwan: Insights from Self-Determination Theory",
-        name: "I Gede Artha Wibawa",
-      },
-      {
-        title:
-          "THE EFFECT OF SOFT SKILLS, EDUCATION LEVEL AND WORK EXPERIENCE ON EMPLOYEE PRODUCTIVITY OF PT ANUGERAH PELITA SEJAHTERA",
-        name: "Siti Salsabilla Azzahra",
-      },
-      {
-        title:
-          "THE EFFECT OF DIVIDEND POLICY AND CAPITAL POLICY ON COMPANY VALUE WITH PROFITABILITY AS A MODERATING VARIABLE IN THE FOOD AND BEVERAGE SUB-SECTOR LISTED ON THE INDONESIA STOCK EXCHANGE (IDX) 2019-2023 PERIOD",
-        name: "Ajeng Lutfiah Pratiwi",
-      },
-      {
-        title:
-          "The Influence of Organizational Culture, Training, and Career Development on Employee Performance at PT. Kurabo Manunggal Textile (KUMATEX)",
-        name: "Adila Balqis Maudyna",
-      },
-      {
-        title:
-          "The Influence Of Job Satisfaction, Work Environment And Career Development On Employee Performance At PT. Kurabo Manunggal Textile (KUMATEX)",
-        name: "Fitria Awalia",
-      },
-      {
-        title:
-          "THE INFLUENCE OF WORK ENVIRONMENT, INDIVIDUALCHARACTERISTICS, AND WORK CULTURE ON EMPLOYEEPERFORMANCE AT PT. INDONESIA TOYOBO FILM SOLUTIONS",
-        name: "Dwi Ambarwati",
-      },
-      {
-        title:
-          "THE EFFECT OF REWARD AND PUNISHMENT SYSTEMS ON EMPLOYEE PERFORMANCE AT PT. ABADI BENUA CEMERLANG",
-        name: "Siti Nurul Aenun Nisa",
-      },
-      {
-        title:
-          "The Influence of Work Quality, Work Supervision and Work Environment on Employee Productivity at PT Premink Abadi Indonesia",
-        name: "Sinta Nurfadilah",
-      },
+      "title": "Organizational Structure Change and Employee Placement on Performance in the Public Sector",
+      "name": "Norman Iswahyudi"
+    },
+    {
+      "title": "Beyond Intent: Uncovering Psychological and Contextual Drivers of Ethical Violations in Public Organizations",
+      "name": "Ni Ketut Ayuni"
+    },
+    {
+      "title": "Job Hopping vs. Job Hugging: Exploring Employee Engagement Across Generation Y and Z",
+      "name": "Caezara Diva Tritya"
+    },
+    {
+      "title": "Can Digitalization Enhance Government Effectiveness? The Moderating Role of Regulatory Quality in Asia and Europe",
+      "name": "Saeed Abdulrahman Ali Saif"
+    },
+    {
+      "title": "Career Development, Compensation, and Turnover Intention: The Mediating Role of Job Satisfaction at Aitimedia",
+      "name": "Lifvia Azzahra"
+    },
+    {
+      "title": "The Influence of Innovation and Knowledge Sharing on Employee Performance at PT Sinar Kaliman Sehat with Self-Efficacy as a Moderating Variable",
+      "name": "Haekal Saputra"
+    },
+    {
+      "title": "Driving Change from Within: Empowering Leadership, Job Autonomy, and Job Crafting",
+      "name": "Galuh Dwi Cahyani"
+    },
+    {
+      "title": "Supporting Performance Management with Business Progress Management and Business Intelligence: a case analysis of integration and orchestration",
+      "name": "Iram Ghaffar"
+    }
     ],
   },
   // BOR 6
@@ -302,45 +321,41 @@ const borData = [
     room: 6,
     presenters: [
       {
-        title:
-          "PERAN INSTITUTIONAL OWNERSHIP PADA HUMAN CAPITAL DAN STRUCTURAL CAPITAL EFFICIENCY DALAM MENINGKATKAN NILAI PERUSAHAAN",
-        name: "Bryan Poaler",
-      },
-      {
-        title:
-          "Balancing Exploration and Exploitation: The Impact of Ambidextrous Leadership on Innovative Work Behavior in State-Owned Oil and Gas Enterprises",
-        name: "Eizel Mauldy Muhammad",
-      },
-      {
-        title:
-          "ORGANIZATIONAL CULTURE AS A SUPPORTING FACTOR FOR THE QUALITY OF HUMAN RESOURCES",
-        name: "Farida Frihartini",
-      },
-      {
-        title:
-          "KNOWLEDGE MANAGEMENT AS A CATALYST FOR ORGANIZATIONAL PERFORMANCE (Empirical Study on Private Universities in the Pantura Region of West Java)",
-        name: "Rita Sri Silvia Pamuji",
-      },
-      {
-        title:
-          "EXPLORING THE LINK BETWEEN ENTREPRENEURIAL LEADERSHIP AND INNOVATION SUCCESS: EVIDENCE FROM SMALL AND MEDIUM ENTERPRISES",
-        name: "Iqbal Ramadhani Fuadiputra",
-      },
-      {
-        title:
-          "The Influence of Trend, Brand Image, Co-Branding, and Product Design on Buying Interest of Uniqlo Products",
-        name: "Gregorius Yoga Kurniadi",
-      },
-      {
-        title:
-          "Purchasing Decisions in Generation Z: The Role of Green Advertising, Green Packaging, and Green Price",
-        name: "Ivena Gloria Sahetapy",
-      },
-      {
-        title:
-          "The Influence of Experiential Marketing, Product Innovation, Brand Image, and Emotional Branding on Customer Loyalty of McDonald’s",
-        name: "Agnes Anggarawati",
-      },
+      "title": "High Profile Sports: Healthy or Deathly (Financially)?",
+      "name": "Jessica Halim"
+    },
+    {
+      "title": "Designed to be Overspend: A Behavioral Look Into Marketing's Financial Impact in the Digital Age",
+      "name": "Natania Ken Anniko Giamanto"
+    },
+    {
+      "title": "Financial Technology, Financial Literacy, and MSME Financial Performance: Mediating Role of Financial Inclusion in East Java",
+      "name": "Raymond Setiyawan"
+    },
+    {
+      "title": "The Mediating Role of Attitude: How Paid Communication and Source Credibility Influence the Intention to Recommend Digital Influencers",
+      "name": "Yessa Jovita Sugiharto"
+    },
+    {
+      "title": "Investor Behavior Model toward Trading Robots: An Initial Trust and Social Influence Approach",
+      "name": "Revalina Gunawan"
+    },
+    {
+      "title": "In Influencers We Trust: How TikTok Content Shapes Gen Z’s Brand Awareness and Buying Intention",
+      "name": "Jocelline Aarona Putricia"
+    },
+    {
+      "title": "The Role of Ease in Transactions on MSME Performance",
+      "name": "Jonathan Stanislaus"
+    },
+    {
+      "title": "Does Alignment Matter? How Product-Influencer Congruence and Credibility Drive Intention to Follow",
+      "name": "I Gusti Ayu Made Maia Anindia"
+    },
+    {
+      "title": "Navigating Digital Business Model Innovation in East Java MSMEs: The Role of Culture, Transformation, and Competitive Intensity.",
+      "name": "Amy Morgan"
+    }
     ],
   },
   // BOR 7
@@ -348,40 +363,37 @@ const borData = [
     room: 7,
     presenters: [
       {
-        title:
-          "ANALYSIS OF THE EFFECTIVENESS OF BISKITA TRANS PAKUAN ADVERTISING ON INSTAGRAM SOCIAL MEDIA",
-        name: "Siti Hani Aminah",
-      },
-      {
-        title:
-          "Local Herbal Tea Product Promotion Strategy : Case Study In Tajurhalang Village",
-        name: "Yunita Aulia Putri",
-      },
-      {
-        title:
-          "Investigating Factors Influencing Green Purchase Intention: The Moderating Role of Green Brand Knowledge",
-        name: "Bernadette Carla Gita Apriani",
-      },
-      {
-        title:
-          "The Power of Green: How Marketing Mix Shapes Brand Loyalty at The Body Shop Indonesia",
-        name: "Desak Gde Pravina Dianthi",
-      },
-      {
-        title:
-          "A Systematic Literature Review On FactorsInfluencing Repurchase Intention Of Organic Food In Bali",
-        name: "Made Wara Sastra Harta",
-      },
-      {
-        title:
-          "The Role of Brand Love in Mediating the Influence of Brand Experience and Brand Satisfaction on Brand Loyalty",
-        name: "Ni Putu Ayu Supriati",
-      },
-      {
-        title:
-          "THE EFFECT OF BRAND IMAGE AND PRODUCT QUALITY ON THE PURCHASE DECISION OF MAYBELLINE MASCARA COSMETICS (Case Study on Students of the Faculty of Economics and Business, Muhammadiyah University of Tangerang)",
-        name: "Ayu Nur Jamilah",
-      },
+      "title": "Exploring Gen Z’s Environmental Knowledge and Consumer Hope in Driving Sustainable Consumption Behavior: Evidence from Hokky Supermarket Surabaya",
+      "name": "Jessica Chrisya Tanjaya"
+    },
+    {
+      "title": "Open Minds, Bold Futures: Linking Readiness for Uncertainty and Optimism to Business Performance among Woman Entrepreneurs",
+      "name": "Anita Lucrecia"
+    },
+    {
+      "title": "The Moderating Role Of Gender In Exploring Impulse Buying Behaviour Among Gen Z In Live Streaming Shopping: A Stimulus-Organism-Response (SOR) Perspective",
+      "name": "Andre Sandrianus Mario"
+    },
+    {
+      "title": "The Effect of Peer Influence and Social Media Advertising toward Purchase Intention of iPhone Products with Brand Trust As Mediating Variable Among Gen Z in Surabaya",
+      "name": "Angelica Stephanie"
+    },
+    {
+      "title": "Influence of Perceived Ease of Use, Challenge, Variety, Social Interaction on Perceived Enjoyment in Roblox",
+      "name": "Rachel Naomi Supratman"
+    },
+    {
+      "title": "The Influence of Women's Economic Empowerment on Technology Entrepreneurship Intention Through Self-Efficacy in Womenpreneurs in Surabaya",
+      "name": "Gabriel Carolina Tjoe"
+    },
+    {
+      "title": "The Effect of Influencer Credibility, Brand Image, and Ad Relevance on Consumer Purchase Intention in Social Media (Study on Somethinc Product Promotion through Influencer Tasya Farasya)",
+      "name": "Leslie Natalie Tanesa"
+    },
+    {
+      "title": "The Effect of Price Discount and Electronic Word of Mouth on Purchase Intention with Brand Image as a Mediator (A Case Study of Generation Z Coffee Consumers in Surabaya)",
+      "name": "Syaiful Anam"
+    }
     ],
   },
   // BOR 8
@@ -389,81 +401,108 @@ const borData = [
     room: 8,
     presenters: [
       {
-        title:
-          "THE EFFECT OF SERVICE QUALITY AND PRODUCT INNOVATION ON PURCHASING DECISIONS (Case Study at Es Teh Indonesia Banjar Wijaya Tangerang City Outlet)",
-        name: "Putri Fia Apriani",
-      },
-      {
-        title:
-          "The Influence of Brand Ambassador, Brand Image, and Product Quality on Purchasing Decisions of Whitelab Skincare Products",
-        name: "Elen Angelica",
-      },
-      {
-        title:
-          "THE INFLUENCE OF CONTENT MARKETING AND BRAND AUTHENTICITY ON CONTINUOUS PURCHASE INTENTION ON PRODUCTS FACETOLOGY ON THE TIKTOK APPLICATION IN TANGERANG CITY",
-        name: "Nurul Fatimah",
-      },
-      {
-        title:
-          "The Role of Customer Attitudes in The Relationship of Green Product and Green Awareness Toward Purchase Intention In Surabaya",
-        name: "Jesselyn Beatrice Hartanto",
-      },
-      {
-        title:
-          "Strategic Approaches to Boost Offline Performancesin the Perfumery Industry (A Case Study of NiftyTwice)",
-        name: "Syifa Nafiah",
-      },
-      {
-        title:
-          "Supply Chain Development Strategy to Improve Street Vendor Competitiveness",
-        name: "Resa Angraeni",
-      },
-      {
-        title:
-          "APPLICATION OF SWOT ANALYSIS AND BLUE OCEAN STRATEGY TO CREATE NEW MARKET SPACE FOR PINTAR STARTUP",
-        name: "Naufal Hanif Arsalan",
-      },
-      {
-        title:
-          "Transformation of Management Policy and Strategic Communication Merdeka Belajar (EmancipatedLearning): An Evaluation Study of Branding and Social Media in Public Sector",
-        name: "Anantasha Titisania Rimadewi",
-      },
+      "title": "The Influence of FoMO, Hedonism, and Scarcity on Impulsive iPhone Buying Among Generation Z Social Media Users",
+      "name": "Benjamin Juan Constantine"
+    },
+    {
+      "title": "The Effect of Perceived Quality on Emotion and Behavioral Intention Based on Google Reviews of Haidilao Restaurant Surabaya",
+      "name": "Fulgentio Hartono"
+    },
+    {
+      "title": "THE ROLE OF AIDA IN AI-ASSISTED PROMOTIONAL CONTENT EFFECTIVENESS ON INSTAGRAM CUTEGRAM.ID",
+      "name": "Tiffany"
+    },
+    {
+      "title": "The Effect of Digital Financial Literacy on QRIS Transaction Intention among Consumers in Solo City",
+      "name": "Regita Adhika Putri Wijayanto"
+    },
+    {
+      "title": "The Impact of Brand Awareness, Price Fairness, and Product Quality on Customer Satisfaction of Scarlett Whitening Handbody Lotion Users",
+      "name": "Aliya Nur Azizah"
+    },
+    {
+      "title": "Determinants of Student Satisfaction in Mandarin Language Courses",
+      "name": "Lisa"
+    },
+    {
+      "title": "The Effect of Job Satisfaction, Work Passion, and Motivation on Employee Retention Intention in Citra Maja City",
+      "name": "Rapli Humaedi"
+    },
+    {
+      "title": "Tax Aggressiveness in Infrastructure Firms: The Impact of Political Connections, Ownership Structure, CSR, and Firm Size",
+      "name": "Totty Dwi Syamba"
+    }
     ],
   },
   // BOR 9
   {
     room: 9,
     presenters: [
-      {
-        title:
-          "THE EFFECT OF PROFITABILITY AND CASH GROWTH ON COMPANY VALUE MEDIATED BY DIVIDEND POLICY (Empirical Studi On Energy Sector Companies Listed On The IDX in 2019-2024)",
-        name: "Nia Wenty Agustin",
+        {
+        "title": "Understanding AI-Driven Social Media Marketing Strategies and Their Impact on Art-Based Content Creators’ Performance",
+        "name": "Phelia Livia"
       },
       {
-        title:
-          "The influence of world oil prices, world gold prices, inflation, exchange rates and interest rates on the composite stock price index for the period 2014-2023",
-        name: "Adelia Amanda Putri",
+        "title": "The Influence of Customer Experience, Satisfaction, and Perceived Safety on Customer Loyalty at Gamerskin Aesthetic",
+        "name": "Galang Saputro Wahyu Nugroho"
       },
       {
-        title:
-          "THE INFLUENCE OF INTELLECTUAL CAPITAL AND GOOD CORPORATE GOVERNANCE ON MANUFACTURING COMPANIES IN THE CONSUMER GOODS SUBSECTOR LISTED ON THE INDONESIA STOCK EXCHANGE FOR THE PERIOD 2019-2023",
-        name: "Feni Fitriastuti",
+        "title": "Pengaruh Fasilitas Gym Terhadap Kepuasan Pelanggan",
+        "name": "I Gusti Made Ngurah Surya Danendra"
       },
       {
-        title:
-          "Comparative Evaluation of Portofolio Performance: A Study of Cryptocurrency andStock (Study Case Bitwise10 Crypto Index and LQ45 Index)",
-        name: "Heru Fachrezie",
+        "title": "Authority Before Revenue: Strategic Social Media Architecture for Sustainable MSME Digital Transformation",
+        "name": "Priscilla Putri Hartono"
       },
       {
-        title:
-          "Sustainable Tourism As A Catalyst For Achieving Sdgs In Indonesia",
-        name: "Dicky Satria Ramadhan",
+        "title": "Perception of Modern Service Features as a Predictor of Public Purchase Intention at Pharmacies Kimia Farma Banyuwangi",
+        "name": "Siska waril istiqomah"
       },
       {
-        title:
-          "The Use of Digital Technology in Micro Business Operations: A Conceptual Study on Utilizing Simple Financial Applications",
-        name: "Dave Christian Tjora",
+        "title": "Determinants of Work Productivity: The Role of Organizational Culture, Compensation, and Digital Leadership",
+        "name": "Deni Prastowo"
       },
+      {
+        "title": "Digital Learning Experience and Student Loyalty: The Mediating Role of Satisfaction",
+        "name": "Christine Angelina"
+      },
+      {
+        "title": "ANALYSIS OF SKILLS AND WORK ENVIRONMENT AMONG INDONESIAN MIGRANT WORKERS IN HONG KONG",
+        "name": "HARININGSIH"
+      }
+    ],
+  },
+  {
+    room: 10,
+    presenters: [
+      {
+      "title": "Emoji-Driven Micro-Interactions: A Suistainable CRM Framework For Digital Entrepreneurship Growth",
+      "name": "Ester Juniarta Simanjuntak"
+    },
+    {
+      "title": "Rethinking Monetary Policy Transmission in Indonesia: The Dominance of the Exchange Rate Channel",
+      "name": "Nicholas Chang"
+    },
+    {
+      "title": "The Role of Entrepreneurial Motivation as a Mediator for the Campus Environment and Entrepreneurial Self-Efficacy in Generation Z",
+      "name": "Beatrix Adelaide Herijanto"
+    },
+    {
+      "title": "Value Formation and Purchase Decisions : Product Bundling, Product Quality, and Personal Selling at UD Wulandari",
+      "name": "annisa putri wulandari"
+    },
+    {
+      "title": "ESG, Capital Intensity, and Leverage as Determinants of Profitability: Evidence from Indonesia Chemical Firms",
+      "name": "Ferryanto Pietoyo"
+    },
+    {
+      "title": "The Effect of Price and Product Quality on Customer Satisfaction at PT. Indojaya Pasifik Mining Industry",
+      "name": "Shera Aurel Thalia Zhalzabiela"
+    },
+    {
+      "title": "Factorial Analysis on Avocado Production Among Small-Scale Farmers in Kemiling District, Lampung, Indonesia",
+      "name": "ADI INDRA PERMANA"
+    }
     ],
   },
 ];
@@ -504,18 +543,17 @@ const Rundown = () => {
           <div className="flex justify-between items-center w-full">
             {" "}
             {/* Container flex */}
-            <a
-              href="https://drive.google.com/file/d/15S3jLDKo2-o76ABSXSR_qlyUUOt7pnGa/view?usp=drivesdk"
-              className="inline-block bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90 text-xs sm:text-sm" // Menyesuaikan padding dan ukuran teks untuk mobile
-            >
-              Download Rundown
-            </a>
-            <a
+            <Link href="https://drive.google.com/file/d/15S3jLDKo2-o76ABSXSR_qlyUUOt7pnGa/view?usp=drivesdk"
+              className="inline-block bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90 text-xs sm:text-sm"
+              >
+                Download Rundown
+            </Link>
+            <Link
               href="https://www.canva.com/design/DAHCUS_uiC0/CtwibRK5vNsfMOs_ehQ-XQ/view?utm_content=DAHCUS_uiC0&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
               className="inline-block bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90 text-xs sm:text-sm" // Menyesuaikan padding dan ukuran teks untuk mobile
             >
               Download Guidebook
-            </a>
+            </Link>
           </div>
 
           {/* Logo */}
@@ -580,16 +618,17 @@ const Rundown = () => {
 
         {/* Rundown Breakout Room (BOR) */}
         <div className="text-left mb-8">
-          <a
+          {/* Download Rekap BOR */}
+          {/* <a
             href="https://docs.google.com/uc?export=download&id=1g6ZTONhL7U5NL19So4h0O1hVEj0vlLtd"
             className="inline-block bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90"
           >
             Download Break Out Room Details
-          </a>
+          </a> */}
 
           {/* Judul */}
           <h1 className="text-2xl md:text-3xl font-bold mb-2 text-[#0C2A56] mt-8">
-            Rundown - Break Out Rooms (13:05 - 15:20)
+            Rundown - Break Out Rooms (13:15 - 15:30)
           </h1>
           <p className="text-gray-600 font-semibold">Online: Zoom</p>
           <p className="text-gray-600 font-semibold mb-4">Date: 18 April 2026</p>
