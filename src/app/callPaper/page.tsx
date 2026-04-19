@@ -34,7 +34,7 @@ const CallPaper = () => {
           <section className="mb-8">
             <p className="mb-4">
               The 1st International Conference on Management and Business
-              Strategy which will be held online on <strong>30 May 2025</strong>{" "}
+              Strategy which will be held online on <strong>18 April 2026</strong>{" "}
               in Surabaya, Indonesia, is the premier forum for the presentation
               of new advances and research results in education theory and
               practice.
