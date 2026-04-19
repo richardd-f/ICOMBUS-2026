@@ -505,13 +505,13 @@ const Rundown = () => {
             {" "}
             {/* Container flex */}
             <a
-              href="https://docs.google.com/uc?export=download&id=1eMpvc033pvxAS1Of0IFav3VFqVZ9BiJq"
+              href="https://drive.google.com/file/d/15S3jLDKo2-o76ABSXSR_qlyUUOt7pnGa/view?usp=drivesdk"
               className="inline-block bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90 text-xs sm:text-sm" // Menyesuaikan padding dan ukuran teks untuk mobile
             >
               Download Rundown
             </a>
             <a
-              href="https://docs.google.com/uc?export=download&id=1jt9mIlXDjcM5DfBSQ6n61FPKk6-yvZXj"
+              href="https://www.canva.com/design/DAHCUS_uiC0/CtwibRK5vNsfMOs_ehQ-XQ/view?utm_content=DAHCUS_uiC0&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
               className="inline-block bg-gradient-to-r from-[#0C2A56] to-[#144373] text-white py-2 px-6 rounded-lg transition-colors hover:opacity-90 text-xs sm:text-sm" // Menyesuaikan padding dan ukuran teks untuk mobile
             >
               Download Guidebook
