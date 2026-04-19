@@ -1,63 +1,98 @@
 import Image from "next/image";
 
-const Footer = () => {
-  // Definisikan path dan alt text untuk logo Co-Host
-  var coHostLogos = [
-    {
-      src: "/images/coHost/doaj.jpg",
-      alt: "DOAJ",
-      width: 150,
-      height: 80,
-    },
-    {
-      src: "/images/coHost/indexCopernicus.jpg",
-      alt: "Index Copernicus",
-      width: 110,
-      height: 100,
-    },
-    {
-      src: "/images/coHost/jaef.jpg",
-      alt: "JAEF",
-      width: 110,
-      height: 100,
-    },
-    {
-      src: "/images/coHost/mapi.jpg",
-      alt: "MAPI",
-      width: 110,
-      height: 100,
-    },
-    {
-      src: "/images/coHost/rme.jpg",
-      alt: "RME",
-      width: 110,
-      height: 100,
-    },
-    {
-      src: "/images/coHost/sinta.jpg",
-      alt: "SINTA",
-      width: 110,
-      height: 100,
-    }
-  ];
+const coHostLogos = [
+  {
+    src: "/images/coHost/UBM.webp",
+    alt: "UBM",
+    width: 110,
+    height: 100,
+  },
+  {
+    src: "/images/coHost/UCO.webp",
+    alt: "UCO",
+    width: 110,
+    height: 100,
+  },
+  {
+    src: "/images/coHost/UKSW.webp",
+    alt: "UKSW",
+    width: 110,
+    height: 100,
+  },
+  {
+    src: "/images/coHost/Uhamka.webp",
+    alt: "Uhamka",
+    width: 110,
+    height: 100,
+  },
+  {
+    src: "/images/coHost/UnivMuhammadiyahTangerang.webp",
+    alt: "Universitas Muhammadiyah Tangerang",
+    width: 110,
+    height: 100,
+  },
+  {
+    src: "/images/coHost/unbra.webp",
+    alt: "Unbra",
+    width: 110,
+    height: 100,
+  },
+];
 
+const publiOportunitiesLogos = [
+  {
+    src: "/images/publicationOportunities/doaj.jpg",
+    alt: "DOAJ",
+    width: 150,
+    height: 80,
+  },
+  {
+    src: "/images/publicationOportunities/indexCopernicus.jpg",
+    alt: "Index Copernicus",
+    width: 110,
+    height: 100,
+  },
+  {
+    src: "/images/publicationOportunities/jaef.jpg",
+    alt: "JAEF",
+    width: 110,
+    height: 100,
+  },
+  {
+    src: "/images/publicationOportunities/mapi.jpg",
+    alt: "MAPI",
+    width: 110,
+    height: 100,
+  },
+  {
+    src: "/images/publicationOportunities/rme.jpg",
+    alt: "RME",
+    width: 110,
+    height: 100,
+  },
+  {
+    src: "/images/publicationOportunities/sinta.jpg",
+    alt: "SINTA",
+    width: 110,
+    height: 100,
+  },
+];
+
+const Footer = () => {
   return (
     <footer className="bg-white text-black">
       {/* Garis hijau di bagian atas */}
       <div style={{ backgroundColor: "#0C2A56", height: "4px" }} />
 
       <div className="container mx-auto p-8">
+        {/* Hosted by Section */}
         <div className="text-center mb-6">
           <h2 className="text-2xl font-bold">Hosted by</h2>
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-12">
-          {" "}
-          {/* Tambah margin bawah di sini */}
           {/* Universitas Ciputra Logo */}
           <div className="flex-1 flex justify-center max-w-xs md:max-w-sm">
-            {" "}
-            {/* Batasi lebar maks */}
             <Image
               src="/logoUC.png"
               alt="Universitas Ciputra"
@@ -69,8 +104,6 @@ const Footer = () => {
           </div>
           {/* Student Union Logo */}
           <div className="flex-1 flex justify-center max-w-xs md:max-w-sm">
-            {" "}
-            {/* Batasi lebar maks */}
             <Image
               src="/logoSU.png"
               alt="Student Union International Business Management"
@@ -84,14 +117,12 @@ const Footer = () => {
 
         {/* Co-Hosted by Section */}
         <div className="text-center mb-6">
-          <h2 className="text-xl font-bold">Publication Opportunities</h2>
+          <h2 className="text-xl font-bold">Co-Hosted by</h2>
         </div>
 
-        <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8 mb-10">
+        <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8 mb-12">
           {coHostLogos.map((logo, index) => (
             <div key={index} className="p-2">
-              {" "}
-              {/* Tambahkan padding jika perlu */}
               <Image
                 src={logo.src}
                 alt={logo.alt}
@@ -103,6 +134,26 @@ const Footer = () => {
           ))}
         </div>
         {/* End of Co-Hosted by Section */}
+
+        {/* Publication Opportunities Section */}
+        <div className="text-center mb-6">
+          <h2 className="text-xl font-bold">Publication Opportunities</h2>
+        </div>
+
+        <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8 mb-10">
+          {publiOportunitiesLogos.map((logo, index) => (
+            <div key={index} className="p-2">
+              <Image
+                src={logo.src}
+                alt={logo.alt}
+                width={logo.width}
+                height={logo.height}
+                style={{ objectFit: "contain" }}
+              />
+            </div>
+          ))}
+        </div>
+        {/* End of Publication Opportunities Section */}
 
         {/* Contact Information */}
         <div
